@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
+import Image from "next/image";
+import banner from "../../public/PARC_banner.png"
 
 export default function Header() {
   return (
     <>
-      <header className="grid place-items-center gap-8 px-8 py-16 bg-[url('./stolen-header.png')] bg-cover bg-bottom min-h-[40vh] bg-blend-multiply bg-gray-500 text-center">
-        <Link to={"/"} className="hover:scale-[1.05] transition-all">
-          <img src="./header.png" />
+      <header className="grid place-items-center gap-8 px-8 py-16 bg-home_header bg-cover bg-bottom min-h-[40vh] bg-blend-multiply bg-gray-500 text-center">
+        <Link href={"/"} className="hover:scale-[1.05] transition-all">
+          <Image src={banner} alt="Parkland Amateur Radio Club banner"/>
         </Link>
         <p className="text-3xl text-white font-semibold">
           Interested In Our Network?
