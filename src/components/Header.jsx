@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="grid place-items-center gap-8 px-8 py-16 bg-[url('./stolen-header.webp')] bg-cover bg-bottom min-h-[40vh] bg-blend-multiply bg-gray-500 text-center">
+      <header className="grid place-items-center gap-8 px-8 py-16 bg-[url('./stolen-header.png')] bg-cover bg-bottom min-h-[40vh] bg-blend-multiply bg-gray-500 text-center">
         <Link to={"/"} className="hover:scale-[1.05] transition-all">
           <img src="./header.png" />
         </Link>
