@@ -19,11 +19,11 @@ export default function News() {
               </p>
               <p>
                 Are you interested in buying items for the cheap with other
-                amateurs? Participate in Manitoba's upcoming Ham Fest!{" "}
+                amateurs? Participate in Manitoba&apos;s upcoming Ham Fest!{" "}
                 <strong>Contact Jim at 204-922-2427</strong> for details.
                 Bookings details can be found at the{" "}
                 <a href="https://www.brandonarc.ca/">
-                  Brandon Amater Radio Club's Website.
+                  Brandon Amater Radio Club&apos;s Website.
                 </a>{" "}
                 Find more{" "}
                 <a href="https://hamshack.ca/rtcl_listing/manitoba-ham-fest/">
@@ -54,7 +54,7 @@ export default function News() {
                 Sunday (UTC Times) &bull; Canora, Saskatchewan
               </p>
               <p>
-                That's right: Field Day 2024 is happening and it's happening in
+                That&apos;s right: Field Day 2024 is happening and it&apos;s happening in
                 Canora, SK! More details to follow when the date is closer.
               </p>
             </div>

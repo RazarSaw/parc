@@ -82,7 +82,7 @@ export default function Home() {
                 the Parklands, covering East Central Saskatchewan. Local
                 amateurs in Canora, Saskatchewan in the beginning consisted of
                 only 3, back in 2000, and eventually those same three formed the
-                club, known as the 'Canora Amateur Radio Club', in February
+                club, known as the &apos;Canora Amateur Radio Club&apos;, in February
                 2002. We started with a local repeater, and soon had IRLP or
                 V.O.I.P. Communication installed and linked, which expanded our
                 range of communication to all around the world. Once more
@@ -93,7 +93,7 @@ export default function Home() {
               </p>
               <p>
                 Our goals as a club seem to be changing faster than ever and
-                over the next couple of years more amateur's joined the club,
+                over the next couple of years more amateur&apos;s joined the club,
                 and in April 2006, we changed our club name to: The Parkland
                 Amateur Radio Club Inc., (P.A.R.C.).
               </p>
