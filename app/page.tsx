@@ -62,7 +62,7 @@ export default function Home() {
               </h2>
               <p>
                 <img
-                  src="./parklandarc/rptlocation1.jpg"
+                  src="/parklandarc/rptlocation1.jpg"
                   className="float-right ml-8 mb-8 lg:w-1/2 w-full rounded-[8px]"
                 />
                 The Parkland Amateur Radio Club was started in 2002, and has
