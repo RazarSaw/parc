@@ -20,7 +20,7 @@ export default function Header() {
             <p>Visit SASKWARN (Wireless Amateur Radio Network)</p>
           </a>
           <a
-            href="#"
+            href="/parklandarc/community-and-support/membership-directors-and-sponsors"
             className="bg-blue-400 hover:bg-blue-500 rounded-[8px] p-4 text-white font-semibold hover:scale-[1.05] transition-all"
           >
             <p>Membership</p>

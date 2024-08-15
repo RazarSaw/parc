@@ -39,31 +39,31 @@ const products = {
       name: "Ham Radio Info",
       description:
         "Interested in getting started, practicing for the exam, or a bit of ham history? ",
-      href: "./hamradioinfo",
+      href: "/parklandarc/ham-radio-resources/ham-radio-info",
       icon: CiCircleInfo,
     },
     {
       name: "Repeaters, EchoLink & IRLP",
       description:
         "PARC has a vast netwok of repeaters located in the province. Learn more about our owned repeaters. We use EchoLink & IRLP with most of our repeaters to create our wide repeater system.",
-      href: "./repeaters-echolink-and-irlp",
+      href: "/parklandarc/ham-radio-resources/repeaters-echolink-and-irlp",
       icon: LuRadioTower,
     },
     {
       name: "Nets",
       description: "PARC hosts and participates in various nets. Come join us!",
-      href: "./nets",
+      href: "/parklandarc/ham-radio-resources/nets",
       icon: MdOutlineGroups2,
     },
   ],
   "Community & Support": [
-    {
-      name: "ARES",
-      description:
-        "Amatuer radio is reknowned not only for communication, but also for communicating in disaster.",
-      href: "#",
-      icon: MdEmergency,
-    },
+    // {
+    //   name: "ARES",
+    //   description:
+    //     "Amatuer radio is reknowned not only for communication, but also for communicating in disaster.",
+    //   href: "#",
+    //   icon: MdEmergency,
+    // },
     {
       name: "Local Info",
       description:
@@ -81,7 +81,7 @@ const products = {
       name: "Membership, Directors, & Sponsors",
       description:
         "Our efforts would not be possible without the people who make it up!",
-      href: "#",
+      href: "/parklandarc/community-and-support/membership-directors-and-sponsors",
       icon: MdOutlineCardMembership ,
     },
   ],
@@ -113,10 +113,10 @@ export default function Example() {
     <div className="bg-neutral-800 shadow-md">
       <nav
         aria-label="Global"
-        className="mx-auto container flex items-center justify-between p-8 lg:py-8 "
+        className="mx-auto container flex items-center justify-between px-8 py-4 "
       >
         <div className="flex lg:flex-1">
-          <a href="." className="-m-1.5 p-1.5">
+          <a href="/parklandarc" className="-m-1.5 p-1.5">
             <span className="sr-only">Parkland Amateur Radio Club</span>
             <img alt="" src="/parklandarc/logo.png" className="h-8 w-auto hover:scale-[1.1] transition-all" />
           </a>
@@ -176,7 +176,7 @@ export default function Example() {
           ))}
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-bold leading-6 text-blue-200">
+          <a href="/parklandarc/community-and-support/membership-directors-and-sponsors" className="text-sm font-bold leading-6 text-blue-200">
             Become A Member! <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
