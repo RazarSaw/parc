@@ -38,13 +38,13 @@ export default function Side() {
       <h2>Callsign Search</h2>
       <article className="bg-slate-200 rounded-[8px] flex justify-center p-4 gap-4 flex-wrap">
         <a href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup">
-          <img src="./parklandarc/rac-logo-2.svg" className="max-h-32" />
+          <img src="/rac-logo-2.svg" className="max-h-32" />
         </a>
         <a href="https://www.arrl.org/advanced-call-sign-search">
-          <img src="./parklandarc/ARRL_logo.svg.png" className="max-h-32" />
+          <img src="/ARRL_logo.svg.png" className="max-h-32" />
         </a>
         <a href="https://www.qrz.com/lookup">
-          <img src="./parklandarc/QRZcom Globe Logo_2.png" className="max-h-32" />
+          <img src="/QRZcom Globe Logo_2.png" className="max-h-32" />
         </a>
       </article>
       <h2>Solar Weather</h2>
