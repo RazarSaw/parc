@@ -62,7 +62,7 @@ export default function Side() {
           className="xl:hidden inline "
         />
       </a>
-      <div className="bg-slate-200 rounded-[8px]">
+      {/* <div className="bg-slate-200 rounded-[8px]">
         <iframe
           src="http://www.g4ilo.com/wwv/webprop.php?format=small"
           height="268px"
@@ -71,7 +71,7 @@ export default function Side() {
           allowtransparency="true"
           className="w-full"
         ></iframe>
-      </div>
+      </div> */}
     </aside>
   );
 }

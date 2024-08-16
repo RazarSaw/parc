@@ -24,7 +24,7 @@ export default function RepeatersEcholinkAndIRLP() {
   return (
     <>
       <header
-        className={`bg-[url('/parklandarc/micor_radio.jpg')] bg-no-repeat bg-cover bg-bottom min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
+        className={`bg-[url('/micor_radio.jpg')] bg-no-repeat bg-cover bg-bottom min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
       >
         <div className="backdrop-blur-md flex flex-col justify-center">
           <div className="container mx-auto p-8">

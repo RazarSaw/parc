@@ -2,7 +2,7 @@ export default function HamRadioInfo() {
   return (
     <>
       <header
-        className={`bg-[url('/parklandarc/Ham%20Radio%20Info%20Header.png')] bg-no-repeat bg-cover bg-bottom min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
+        className={`bg-[url('/Ham%20Radio%20Info%20Header.png')] bg-no-repeat bg-cover bg-bottom min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
       >
         <div className="backdrop-blur-md flex flex-col justify-center">
           <div className="container mx-auto p-8">
@@ -66,7 +66,7 @@ export default function HamRadioInfo() {
             <h3>What Is Amateur Radio?</h3>
             <p>
               <img
-                src="/parklandarc/J Pole.jpg"
+                src="/J Pole.jpg"
                 className="float-right lg:w-1/2 w-full rounded-[8px] lg:ml-8 mb-8"
               />
               Amateur radio is a form of radio used by non-professionals
@@ -95,7 +95,7 @@ export default function HamRadioInfo() {
         </div>
       </main>
 
-      <section className="bg-[url('/parklandarc/Yagi%20Uda.jpg')] bg-cover bg-no-repeat min-h-[40vh] bg-black/50 bg-blend-multiply grid place-items-center text-white font-bold text-2xl">
+      <section className="bg-[url('/Yagi%20Uda.jpg')] bg-cover bg-no-repeat min-h-[40vh] bg-black/50 bg-blend-multiply grid place-items-center text-white font-bold text-2xl">
         <p className="container mx-auto p-8 text-center">&quot;Insert some weird quote RJM!&quot;</p>
       </section>
       <main className="bg-neutral-800 text-white">
@@ -103,7 +103,7 @@ export default function HamRadioInfo() {
           <h3>Why Would Anyone Join The Hobby?</h3>
           <p>
             <img
-              src="/parklandarc/Newspaper.png"
+              src="/Newspaper.png"
               className="float-left lg:w-1/3 w-full rounded-[8px] mb-8 mr-8"
             />
             Amateur radio is a lot more than just talk to each other with radio

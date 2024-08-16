@@ -1,7 +1,7 @@
 "use client";
 
 import News from "./components/News";
-import Side from "./components/Side";
+import Side from "./Side";
 import Header from "./components/Header";
 import Link from "next/link";
 

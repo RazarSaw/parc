@@ -1,3 +1,6 @@
+import { FiRewind } from "react-icons/fi";
+import Link from "next/link";
+
 export default function Sponsors() {
   const links = [
     {
@@ -28,7 +31,8 @@ export default function Sponsors() {
       alt: "Home Hardware logo",
       href: "https://www.homehardware.ca/en/",
       imageHref: "home-hardware.webp",
-      title: "Home Hardware | P.O. Box 1780 456 3rd Ave. S. Kamsack, SK. S0A 1S0",
+      title:
+        "Home Hardware | P.O. Box 1780 456 3rd Ave. S. Kamsack, SK. S0A 1S0",
     },
     {
       alt: "SaskTel logo",
@@ -84,12 +88,101 @@ export default function Sponsors() {
       imageHref: "bargain_store.gif",
       title: "Canora Bargain Store",
     },
+    {
+      alt: "Horizon Technical Services logo",
+      href: "mailto:hts@imagewireless.ca",
+      imageHref: "horizon-technical-services.png",
+      title: "Horizon Technical Services",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Logan Stevens Equipment & Rentals | Dallas Harman",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Buchanan Branch | Buchanan, SK S0A 0J0",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Preeceville Branch |Preeceville, SK S0A 3B0",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Sturgis Branch | Sturgis, SK S0A 4A0",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Sky Farms Ltd. | Michael Yaholnitsky",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Canora Agencies Ltd. | Clarence & Alice Derow",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "CANORA AMBULANCE CARE (1996) LTD.",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "Canora Greenhouse Ltd. Coral Tibbett",
+    },
+    {
+      alt: "",
+      href: "#",
+      imageHref: "../../unfound.jpg",
+      title: "EMW Ltd. Chris Morrison",
+    },
   ];
+
+  const friends = [
+    {
+      title: "Frank & Angy Yaholnitsky",
+      href: "#",
+      imageHref: "Frank%20and%20Angy%20Yaholnitsky.jpg",
+      desc: "Frank and Angy are very community service minded people. They are impressed with the public service and emergency communications aspects of ham radio and have generously allowed access to the 160 foot tower and radio shack, located at their property east of Yorkton. This has enabled the Parkland Amateur Radio Club to install a permanent commercial grade - long range repeater, that will serve all local hams as well as travelers on the Yellowhead Highway.",
+      rowspan: 3,
+      colspan: 2
+    },
+    {
+      title: "Nick Toma",
+      href: "#",
+      imageHref: "kamsack.png",
+      desc: "Nick Toma has been very generous towards the Parkland Amateur Radio Club and members alike. Nick has been one of our main tower climbers and has donated his 150' Tower, which houses the Endeavour Repeater.   He has helped us out when it comes to testing out our radio's for optimum performance.   He has provided the Parkland Amateur Radio Club in providing a public service with emergency communications if the need should arise.  Located North of Preeceville, this repeater provides increase coverage, even where normal modes of communication don't work.",
+      rowspan: 2,
+      colspan: 3
+    },
+    {
+      title: "PCS - Rocanville Division",
+      href: "https://www.nutrien.com/locations/potash-operations",
+      imageHref: "Frank%20and%20Angy%20Yaholnitsky.jpg",
+      desc: "PCS Rocanville has been most generous to our club in providing a new repeater site for 2010-2011.  PCS Rocanville will help the Parkland Amateur Radio Club extend it's coverage area to cover the #1 Trans Canada Hwy",
+      rowspan: 2,
+      colspan: "full"
+    },
+  ];
+
   return (
     <>
-      <section className="grid grid-cols-1 xl:grid-cols-[minmax(250px,_400px),_1fr] gap-8 text-white">
-        <h3 className="xl:col-span-2 col-span-1">Sponsors</h3>
-        <div>
+      <h2 className="xl:col-span-2 col-span-1">Sponsors</h2>
+
+      <section className="flex flex-col md:grid md:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] grid-flow-dense	 gap-8 text-white">
+        <div className="col-span-2 row-span-2 bg-neutral-700 p-8 rounded-[8px] flex flex-col gap-4 justify-center">
           <p>
             The Parkland Amateur Radio Club was started in 2002, and has
             successfully installed a long distance working repeater linked with
@@ -103,56 +196,50 @@ export default function Sponsors() {
             for the service, time and money they have contributed to the club.
           </p>
         </div>
-        <div className="grid md:grid-cols-[repeat(auto-fill,_minmax(150px,1fr))] grid-cols-[repeat(auto-fill,_minmax(200px,1fr))] gap-8 items-stretch justify-stretch">
-          {links.map((link) => {
-            return (
-              <a
-                className="bg-white rounded-[8px] grid place-items-center p-8 hover:scale-[1.03] transition-all aspect-square"
-                href={link.href}
-                title={link.title}
-                key={link.title}
-              >
-                <img
-                  src={`/parklandarc/images/sponsors/${link.imageHref}`}
-                  alt={link.alt}
-                  className="rounded-[8px]"
-                />
-              </a>
-            );
-          })}
+        <div className="col-span-3 row-span-1 bg-neutral-700 p-8 rounded-[8px] flex flex-col gap-4 justify-center">
+          <h3>Friends Of Amateur Radio</h3>
+          <p>
+            Over the years, PARC has made some exemplars in terms of supporting
+            our repeaters. Below are our sponsors who have kindly allowed our
+            club to host repeaters at there stations.
+          </p>
+          {/* <div className="flex flex-col gap-8"></div> */}
         </div>
-        {/* <div className="grid md:grid-cols-[repeat(auto-fit,_minmax(200px,1fr))] grid-cols-[repeat(auto-fill,_minmax(150px,1fr))] gap-8">
-          {members.directors.map((member) => {
-            return (
-              <a key={member.name} href={member.href}>
-                <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] hover:border border-white transition-all text-white">
-                  <img
-                    src={`/parklandarc/images/profiles/${member.callsign}.jpg`}
-                    className="aspect-square object-cover object-left transition-all	hover:object-right rounded-t-[8px]"
-                  />
-                  <div className="flex-grow flex flex-col gap-4 p-4">
-                    <h3 className="md:hidden block ">
-                      {member.name.split(" ")[0]}
-                    </h3>
-                    <h3 className="md:block hidden">{member.name}</h3>
-                    <h4 className="-mt-4 mb-4">{member.position}</h4>
-                    <div className="flex flex-col gap-4 flex-grow md:place-content-end place-content-between">
-                      <p className="flex md:flex-row flex-col justify-between">
-                        <span>{member.callsign} </span>
-                        <span>
-                          {member.hasOwnProperty("XYL")
-                            ? `XYL ${member.XYL}`
-                            : ""}
-                        </span>
-                      </p>
-                      <p>Member Since {member["member-since"]}</p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            );
-          })}
-        </div> */}
+        {friends.map((friend) => {
+          return (
+            <div
+              key={friend.title}
+              className={`bg-neutral-700 rounded-[8px] flex flex-col justify-stretch overflow-hidden row-span-${friend.rowspan} col-span-${friend.colspan}`}
+            >
+              <div
+                className={`bg-[url('/images/sponsors/${friend.imageHref}')] bg-center bg-black/25 bg-blend-multiply p-4 flex flex-col justify-center items-center min-h-64 bg-no-repeat bg-contain`}
+              >
+                <h4>
+                  <Link className="text-white" href={friend.href}>
+                    {friend.title}
+                  </Link>
+                </h4>
+              </div>
+              <p className="col-span-2 p-4">{friend.desc}</p>
+            </div>
+          );
+        })}
+        {links.map((link) => {
+          return (
+            <a
+              className="bg-white rounded-[8px] grid place-items-center p-8 hover:scale-[1.03] transition-all "
+              href={link.href}
+              title={link.title}
+              key={link.title}
+            >
+              <img
+                src={`/images/sponsors/${link.imageHref}`}
+                alt={link.alt}
+                className="rounded-[8px]"
+              />
+            </a>
+          );
+        })}
       </section>
     </>
   );

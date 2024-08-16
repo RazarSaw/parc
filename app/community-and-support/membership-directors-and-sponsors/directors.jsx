@@ -46,7 +46,7 @@ export default function Directors() {
   return (
     <>
       <section className="flex flex-col gap-8 text-white">
-            <h3>Directors</h3>
+            <h2>Directors</h2>
             <p>
               Our local club would not be possible without the people who make
               it up. From high level directors, to regular members, we&apos;re
@@ -58,7 +58,7 @@ export default function Directors() {
                   <a key={member.name} href={member.href}>
                     <div className="bg-neutral-700 group overflow-hidden flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] transition-all text-white">
                       <img
-                        src={`/parklandarc/images/profiles/${member.callsign}.jpg`}
+                        src={`/images/profiles/${member.callsign}.jpg`}
                         className="aspect-square object-cover object-left transition-all group-hover:object-right rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
                       />
                       <div className="flex-grow flex flex-col gap-4 p-4 z-40 overflow-hidden bg-neutral-700">

@@ -14,12 +14,12 @@ export default function Footer() {
         <div className="flex lg:flex-row flex-col items-center gap-8">
           <Link href={"/"}>
             <img
-              src="/parklandarc/logo.png"
+              src="/logo.png"
               alt=""
               className="max-h-16 hover:scale-[1.05] transition-all aspect-square"
             />
           </Link>
-          <p>
+          <p className="lg:text-left text-center">
             Copyright &copy; {year} Parkland Amateur Radio Club <br />
             All Rights Reserved.
           </p>

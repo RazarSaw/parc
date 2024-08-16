@@ -39,20 +39,20 @@ const products = {
       name: "Ham Radio Info",
       description:
         "Interested in getting started, practicing for the exam, or a bit of ham history? ",
-      href: "/parklandarc/ham-radio-resources/ham-radio-info",
+      href: "/ham-radio-resources/ham-radio-info",
       icon: CiCircleInfo,
     },
     {
       name: "Repeaters, EchoLink & IRLP",
       description:
         "PARC has a vast netwok of repeaters located in the province. Learn more about our owned repeaters. We use EchoLink & IRLP with most of our repeaters to create our wide repeater system.",
-      href: "/parklandarc/ham-radio-resources/repeaters-echolink-and-irlp",
+      href: "/ham-radio-resources/repeaters-echolink-and-irlp",
       icon: LuRadioTower,
     },
     {
       name: "Nets",
       description: "PARC hosts and participates in various nets. Come join us!",
-      href: "/parklandarc/ham-radio-resources/nets",
+      href: "/ham-radio-resources/nets",
       icon: MdOutlineGroups2,
     },
   ],
@@ -81,7 +81,7 @@ const products = {
       name: "Membership, Directors, & Sponsors",
       description:
         "Our efforts would not be possible without the people who make it up!",
-      href: "/parklandarc/community-and-support/membership-directors-and-sponsors",
+      href: "/community-and-support/membership-directors-and-sponsors",
       icon: MdOutlineCardMembership ,
     },
   ],
@@ -116,9 +116,9 @@ export default function Example() {
         className="mx-auto container flex items-center justify-between px-8 py-4 "
       >
         <div className="flex lg:flex-1">
-          <a href="/parklandarc" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Parkland Amateur Radio Club</span>
-            <img alt="" src="/parklandarc/logo.png" className="h-8 w-auto hover:scale-[1.1] transition-all" />
+            <img alt="" src="/logo.png" className="h-8 w-auto hover:scale-[1.1] transition-all" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -176,7 +176,7 @@ export default function Example() {
           ))}
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/parklandarc/community-and-support/membership-directors-and-sponsors" className="text-sm font-bold leading-6 text-blue-200">
+          <a href="/community-and-support/membership-directors-and-sponsors" className="text-sm font-bold leading-6 text-blue-200">
             Become A Member! <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -187,16 +187,16 @@ export default function Example() {
         className="lg:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-8 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/">
               <span className="sr-only">Parkland Amateur Radio Club</span>
-              <img alt="" src="./logo.png" className="h-8 w-auto" />
+              <img alt="" src="/logo.png" className="h-8 w-auto" />
             </a>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className=" rounded-md text-gray-700"
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="h-6 w-6" />
