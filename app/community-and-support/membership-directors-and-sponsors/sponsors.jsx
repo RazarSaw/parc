@@ -180,7 +180,7 @@ export default function Sponsors() {
     <div className="flex flex-col gap-8">
       <h2 className="xl:col-span-2 col-span-1">Sponsors</h2>
       <section className="flex flex-col md:grid md:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] grid-flow-dense	 gap-8 text-white">
-        <div className="col-span-2 row-span-1 lg:row-span-2 xl:col-span-2 bg-neutral-700 p-8 rounded-[8px] flex flex-col gap-4 justify-center">
+        <div className="col-span-2 row-span-1 lg:row-span-1 lg:col-span-2 xl:row-span-1 xl:col-span-2 bg-neutral-700 p-8 rounded-[8px] flex flex-col gap-4 justify-center">
           <p>
             The Parkland Amateur Radio Club was started in 2002, and has
             successfully installed a long distance working repeater linked with
@@ -208,7 +208,7 @@ export default function Sponsors() {
         {links.map((link) => {
           return (
             <a
-              className={`text-center text-neutral-600 bg-white rounded-[8px] grid place-items-center p-8 hover:scale-[1.03] transition-all col-span-${link.colspan}`}
+              className={`text-center text-neutral-600 bg-white rounded-[8px] grid place-items-center p-8 ${link.href == '#' ? '' : 'hover:scale-[1.03]'} transition-all col-span-${link.colspan}`}
               href={link.href}
               title={link.title}
               key={link.title}
@@ -256,8 +256,8 @@ function Friends() {
       href: "https://www.nutrien.com/locations/potash-operations",
       imageHref: "nutrien.svg",
       desc: "PCS Rocanville has been most generous to our club in providing a new repeater site for 2010-2011.  PCS Rocanville will help the Parkland Amateur Radio Club extend it's coverage area to cover the #1 Trans Canada Hwy",
-      rowspan: 2,
-      colspan: "full",
+      rowspan: 1,
+      colspan: "3",
     },
   ];
   return friends.map((friend) => {
@@ -266,18 +266,15 @@ function Friends() {
         key={friend.title}
         className={`bg-neutral-700 rounded-[8px] flex flex-col justify-stretch overflow-hidden row-span-${friend.rowspan} col-span-${friend.colspan}`}
       >
-        <div
-          className={`bg-[url('/images/sponsors/${friend.imageHref}')] bg-center bg-black/60 bg-blend-multiply p-8 flex flex-col gap-4 justify-center items-center min-h-64 bg-no-repeat bg-contain`}
-        >
+        <img src={`/images/sponsors/${friend.imageHref}`} />
+        <div className="h-full flex flex-col gap-8 justify-center p-8">
           <h4>
             <Link className="text-white" href={friend.href}>
               {friend.title}
             </Link>
           </h4>
           <p>{friend.site}</p>
-        </div>
-        <div className="h-full flex flex-col justify-center">
-          <p className="col-span-2 p-8">{friend.desc}</p>
+          <p className="col-span-2">{friend.desc}</p>
         </div>
       </div>
     );

@@ -2,7 +2,6 @@ import Members from "./members";
 import Directors from "./directors";
 import Sponsors from "./sponsors";
 import Header from "./header";
-import Community from "./community";
 
 export default function membershipDirectorsAndSponsors() {
   return (
@@ -23,7 +22,6 @@ export default function membershipDirectorsAndSponsors() {
           <Members />
           <Directors />
           <Sponsors />
-          {/* <Community /> */}
         </div>
       </main>
     </>

@@ -58,7 +58,7 @@ export default function Directors() {
                   <a key={member.name} href={member.href}>
                     <div className="bg-neutral-700 group overflow-hidden flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] transition-all text-white">
                       <img
-                        src={`/images/profiles/${member.callsign}.jpg`}
+                        src={`/images/profiles/${member.callsign.toLowerCase()}.jpg`}
                         className="aspect-square object-cover object-left transition-all group-hover:object-right rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
                       />
                       <div className="flex-grow flex flex-col gap-4 p-4 z-40 overflow-hidden bg-neutral-700">

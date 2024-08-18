@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <header
-      className={`bg-[url('/Ham%20Radio%20Info%20Header.png')] bg-no-repeat bg-cover bg-bottom min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
+      className={`bg-[url('/ve5pwo-pobetkoff.jpg')] bg-no-repeat bg-fixed bg-cover bg-bottom min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-black/75 bg-blend-multiply`}
     >
-      <div className="backdrop-blur-md flex flex-col justify-center">
+      <div className="backdrop-blur-sm flex flex-col justify-center">
         <div className="container mx-auto px-8 py-16 flex lg:flex-row flex-col flex-wrap items-center gap-8">
           <h1 className="flex-1">Membership, Directors, & Sponsors</h1>
           <a
