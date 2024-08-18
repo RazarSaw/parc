@@ -68,13 +68,13 @@ const products = {
       name: "Local Info",
       description:
         "PARC has a rich history for its grass roots in Saskatchewan. Learn more about our past, the present, and our eyes on the future",
-      href: "#",
+      href: "/community-and-support/local-info",
       icon: FaHome,
     },
     {
       name: "Links",
       description: "Find hundreds of links available at your disposile.",
-      href: "#",
+      href: "/community-and-support/links",
       icon: FaExternalLinkAlt ,
     },
     {
