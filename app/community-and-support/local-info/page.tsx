@@ -25,7 +25,7 @@ export default function localInfo() {
                 James Bucsis, a former friend of mine and at the time was
                 located at Bonnyville, AB. and in one of his visits, he
                 introduced me to Amateur Radio. He had made a contact within
-                Unity's town limits with another operator using his portable HTX
+                Unity&apos;s town limits with another operator using his portable HTX
                 202 portable radio, and from then on, I knew I wanted to become
                 an amateur radio operator. I had introduced myself to other
                 operators in the area and asked how I could get my license. Soon
@@ -33,7 +33,7 @@ export default function localInfo() {
                 in June 1995. Through a course they offered locally. Everything
                 was fine and dandy, except I needed a radio to communicate to
                 others. I had purchased a HTX 202 Portable for my first radio,
-                and realized that with just a rubber ducky antenna, I wasn't
+                and realized that with just a rubber ducky antenna, I wasn&apos;t
                 able to communicate with James in Bonnyville, AB, some 3-1/2
                 hours away.{" "}
               </p>
@@ -72,7 +72,7 @@ export default function localInfo() {
                 that we needed a controller, so I had saved my pennies, and
                 purchased a used controller from another amateur radio operator,
                 located in Lloydminster, Scott Diamond (VE5FD), now using his
-                new call sign (VE6RZ). Well, that wasn't all I needed, I also
+                new call sign (VE6RZ). Well, that wasn&apos;t all I needed, I also
                 required a frequency to legally transmit on, so I applied to the
                 frequency controller for Saskatchewan and was assigned 147.080
                 TX and 147.680 RX, Ray had ordered up the crystals required for
@@ -147,7 +147,7 @@ export default function localInfo() {
                 challenging part of all this was how in the world was I to get
                 all the equipment to the top, and also keep it safe from the
                 outside elements, such as rain and sun light. I had a local
-                contractor construct me a container of about 24"W X 30"L X 36"H,
+                contractor construct me a container of about 24&quot;W X 30&quot;L X 36&quot;H,
                 with it being insulated, I had decided to go one extra step, and
                 have the container fully covered with sheet metal for the long
                 term. The equipment and the container were able to be installed
@@ -176,7 +176,7 @@ export default function localInfo() {
               </p>
               <p>
                 James and I acquired a set of duplexers that was located out at
-                Gerald'’s farm site East of Yorkton. James arranged for the
+                Gerald&apos;’s farm site East of Yorkton. James arranged for the
                 duplexers to be tuned by Ronald Communications in Russell,
                 Manitoba, and they were hoisted up by crane to the top of the
                 elevator in August of 2002. The duplexers worked great, with a
@@ -475,7 +475,7 @@ export default function localInfo() {
                 LMR600 Coax and misc, interface controller cable, programming
                 software, along with pre amp and required adaptors. Below is
                 what is installed at the Yorkton Repeater Site, located at Frank
-                & Angy Yaholnitsky's Residence. Parkland Amateur Radio Club
+                & Angy Yaholnitsky&apos;s Residence. Parkland Amateur Radio Club
                 (P.A.R.C.) would like to thank Randy & Michelle for their
                 generous purchase, along with Ronald Communication, Horizon
                 Technical Services, and all club members for helping with this
@@ -539,12 +539,12 @@ export default function localInfo() {
                 that afternoon, a local contractor was working for the Town of
                 Invermay, using heavy equipment to clean out a creek, the
                 operator, came into contact with one of the guide anchors, which
-                was used to keep the 220' tower that was used for the operation
+                was used to keep the 220&apos; tower that was used for the operation
                 of our Invermay Repeater. Randy Molyneaux (VE5RJM) received a
                 call, upon arrival at the site, my wife Michelle, and I were,
                 well words could not explain, seeing our tower and equipment,
                 completely destroyed, along with that, the tower had landed on a
-                near by residence's garage, also ruining the roof. It was truly
+                near by residence&apos;s garage, also ruining the roof. It was truly
                 amazing that nobody got hurt.
               </p>
               <p>
@@ -566,10 +566,10 @@ export default function localInfo() {
             <>
               <p>
                 Well, we had some hope after all, in the spring of 2008, our
-                club had received an anonymous donation of a used 160' guided
+                club had received an anonymous donation of a used 160&apos; guided
                 DMX Tower, and once again, club members, along with Nick Toma
                 arranged for the erected tower to be relocated out at Endeavour,
-                Nick Toma's farm. This took several site visits to take down and
+                Nick Toma&apos;s farm. This took several site visits to take down and
                 then several more, to setup.
               </p>
               <p>
@@ -591,7 +591,7 @@ export default function localInfo() {
                 Motorola MSR2000 Repeater. We had again depleted all of the
                 clubs funds, and I, Randy Molyneaux (VE5RJM) had agreed to
                 purchase the equipment and crystals, until the club could afford
-                it. Fall of 2009 we were able to repair the duplexer's by
+                it. Fall of 2009 we were able to repair the duplexer&apos;s by
                 replacing a few of the cables, and finally had a fully operation
                 repeater on frequency of 147.300+ MHz. Over the winter months we
                 experience poor operation at the Endeavour Site, and with
@@ -601,9 +601,9 @@ export default function localInfo() {
               </p>
               <p>
                 You would almost think someone is trying to tell us something,
-                but with a new year, and another year's worth of dues, we were
+                but with a new year, and another year&apos;s worth of dues, we were
                 able to purchase another antenna, with replacement to be
-                scheduled for July 2010. In the mean time we are using Nick's 4
+                scheduled for July 2010. In the mean time we are using Nick&apos;s 4
                 Bay ½~, which has been working flawlessly. - Updates to follow.{" "}
               </p>
             </>,
@@ -625,12 +625,12 @@ export default function localInfo() {
                 expenses, but were denied.{" "}
               </p>
               <p>
-                Well, this didn't stop us from continuing with our on going
+                Well, this didn&apos;t stop us from continuing with our on going
                 projects, but perhaps just slowed us down a little, and in July
                 of 2008, SARL, was losing their site where the Saskatoon
                 Reflector was setup, and with many months of trying to find a
                 new location, Randy Molyneaux (VE5RJM) was in contact with our
-                club members and everybody didn't want the Reflector to be shut
+                club members and everybody didn&apos;t want the Reflector to be shut
                 down, because it provides a special link using VOIP to link
                 various repeaters across the world, which is a vital part in our
                 communication network.{" "}
@@ -645,7 +645,7 @@ export default function localInfo() {
                 had agreed, and had a meeting to change the name of the
                 Saskatoon Reflector 9300 to the Saskatchewan Reflector 9300, and
                 the reflector was temporarily put into service at Joe & Elaine
-                Molyneux's residence (Randy's Parents), until March 22nd, 2010,
+                Molyneux&apos;s residence (Randy&apos;s Parents), until March 22nd, 2010,
                 when it was put in full operation, in a temporary part of the
                 building of the new fire hall. SARL will be responsible for all
                 expensed incurred, involving the Saskatchewan Reflector, and

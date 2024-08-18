@@ -64,7 +64,7 @@ export default function repeaterEcholinkAndIRLP() {
                 project, it is taking longer than we had hoped for.
               </p>
               <p>
-                The linking project's main goal is to expand our local coverage
+                The linking project&apos;s main goal is to expand our local coverage
                 area to be province wide, and also link into Manitoba, the DARC
                 System, which will give coverage expanded to Eastern Canada.
                 This is a major project taken on solely by a local club to
