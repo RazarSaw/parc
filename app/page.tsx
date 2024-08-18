@@ -107,7 +107,7 @@ export default function Home() {
                 system, which provides several different modes of communication,
                 to a expanded coverage area. We are continuously updating our
                 equipment and repeater network, more information can be viewed
-                on our <Link href="./repeaters">repeater page.</Link>
+                on our <Link href="./ham-radio-info/repeaters-echolink-and-irlp">repeater page.</Link>
               </p>
               <div className="grid xl:grid-cols-2 grid-cols-1 gap-8">
                 <iframe
