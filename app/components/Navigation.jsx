@@ -187,7 +187,7 @@ export default function Example() {
         className="lg:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-8 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-neutral-800 px-8 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="/">
               <span className="sr-only">Parkland Amateur Radio Club</span>
@@ -196,7 +196,7 @@ export default function Example() {
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className=" rounded-md text-gray-700"
+              className=" rounded-md "
             >
               <span className="sr-only">Close menu</span>
               <XMarkIcon aria-hidden="true" className="h-6 w-6" />
@@ -207,7 +207,7 @@ export default function Example() {
               <div className="space-y-2 py-6">
                 {Object.keys(products).map((category) => (
                   <Disclosure key={category} as="div" className="-mx-3">
-                    <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                    <DisclosureButton className="group text-white flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7  hover:bg-neutral-700 transition-all duration-300">
                       {category}
                       <ChevronDownIcon
                         aria-hidden="true"
@@ -220,7 +220,7 @@ export default function Example() {
                           key={item.name}
                           as="a"
                           href={item.href}
-                          className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                          className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-neutral-300 hover:bg-neutral-700"
                         >
                           {item.name}
                         </DisclosureButton>
