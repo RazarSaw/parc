@@ -59,7 +59,7 @@ export default function Nets() {
         "UTC Time": "13:00 / 14:00",
         "Name of Net": "Saskatchewan WX",
         Frequency: "3.753/6 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://sarl.ca/departments/",
       },
       {
@@ -68,7 +68,7 @@ export default function Nets() {
         "UTC Time": "13:30 / 14:30",
         "Name of Net": "Manitoba WX",
         Frequency: "3.743/5 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://ramb.ca/info/nets/",
       },
       {
@@ -77,7 +77,7 @@ export default function Nets() {
         "UTC Time": "16:00 / 01:00",
         "Name of Net": "Maritimes Mobile Service",
         Frequency: "14.300 MHz (USB)",
-        image: "/unfound.jpg",
+
         href: "https://www.mmsn.org/",
       },
       {
@@ -86,7 +86,7 @@ export default function Nets() {
         "UTC Time": "23:00",
         "Name of Net": "Afternoon Aurora",
         Frequency: "7.100 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://auroranet.ham-radio.ca/",
       },
       {
@@ -95,7 +95,7 @@ export default function Nets() {
         "UTC Time": "01:00",
         "Name of Net": "Saskatchewan Public Service	",
         Frequency: "3.735 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "",
       },
       {
@@ -104,7 +104,7 @@ export default function Nets() {
         "UTC Time": "01:30",
         "Name of Net": "Alberta Public Service",
         Frequency: "3.700 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://www.apsn3700.net/",
       },
       {
@@ -113,7 +113,7 @@ export default function Nets() {
         "UTC Time": "01:30",
         "Name of Net": "BC Public Service",
         Frequency: "3.729 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://www.bcpsn.com/",
       },
     ],
@@ -124,7 +124,7 @@ export default function Nets() {
         "UTC Time": "14:30",
         "Name of Net": "Saskatchewan ARES",
         Frequency: "3.753 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "",
       },
       {
@@ -133,7 +133,7 @@ export default function Nets() {
         "UTC Time": "18:00",
         "Name of Net": "Trans Canada",
         Frequency: "14.140 MHz (USB)",
-        image: "/unfound.jpg",
+
         href: "https://www.ontars.com/TCN/index.html",
       },
       {
@@ -142,7 +142,7 @@ export default function Nets() {
         "UTC Time": "00:00 / 01:00",
         "Name of Net": "Manitoba Public Service",
         Frequency: "3.747 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "",
       },
       {
@@ -151,7 +151,7 @@ export default function Nets() {
         "UTC Time": "02:30 / 03:30",
         "Name of Net": "Evening Aurora",
         Frequency: "7.100 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://auroranet.ham-radio.ca/",
       },
       {
@@ -160,7 +160,7 @@ export default function Nets() {
         "UTC Time": "04:00 / 05:00",
         "Name of Net": "The Pow Wow Club",
         Frequency: "3.750 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "https://va3ts.ca/pwc.php",
       },
       {
@@ -169,7 +169,7 @@ export default function Nets() {
         "UTC Time": "13:00",
         "Name of Net": "Trans Provincial",
         Frequency: "7.100 MHz (LSB)",
-        image: "/unfound.jpg",
+
         href: "http://www.tpn7055.com/",
       },
       {
@@ -178,7 +178,7 @@ export default function Nets() {
         "UTC Time": "16:30",
         "Name of Net": "International Saturn",
         Frequency: "14.325 MHz (USB)",
-        image: "/unfound.jpg",
+
         href: "http://saternusa.org/",
       },
       {
@@ -187,11 +187,11 @@ export default function Nets() {
         "UTC Time": "16:30",
         "Name of Net": "International Saturn",
         Frequency: "14.320 MHz (USB)",
-        image: "/unfound.jpg",
+
         href: "http://saternusa.org/",
       },
     ],
-    
+
     digital: [
       {
         Day: "Friday",
@@ -199,7 +199,7 @@ export default function Nets() {
         "UTC Time": "01:00",
         "Name of Net": "Canadian D-Star",
         Frequency: "XRF103B / XRF021B",
-        image: "/unfound.jpg",
+
         href: "",
       },
       {
@@ -208,15 +208,15 @@ export default function Nets() {
         "UTC Time": "01 / 02:00",
         "Name of Net": "	The Canada Fusion / C4FM",
         Frequency: "Wires-X Room 40678",
-        image: "/unfound.jpg",
+
         href: "https://www.dxzone.com/dx33263/cq-canada.html",
-      }
-    ]
+      },
+    ],
   };
   return (
     <>
       <header
-        className={`bg-[url('/Saskatchewan%202m%20IRLP%20Net.png')] bg-no-repeat bg-cover bg-center min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
+        className={`bg-[url('/Saskatchewan%202m%20IRLP%20Net.png')] bg-no-repeat bg-fixed bg-cover bg-center min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
       >
         <div className="backdrop-blur-md flex flex-col justify-center">
           <div className="container mx-auto p-8">
@@ -262,11 +262,11 @@ export default function Nets() {
               <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] gap-8">
                 {nets.vhf.map((net) => {
                   return (
-                    <a key={net["Name of Net"]} href={net.href}>
-                      <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] hover:border border-white transition-all text-white">
+                    <a key={net["Name of Net"]} href={net.href} className="group">
+                      <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] duration-700 transition-all text-white">
                         <img
                           src={`${net.image}`}
-                          className="aspect-video object-cover object-left transition-all	hover:object-right rounded-t-[8px]"
+                          className="aspect-video object-cover	hover:object-right rounded-t-[8px] md:object-left object-center transition-all group-hover:object-right duration-500"
                         />
                         <div className="flex-grow flex flex-col gap-4 p-4">
                           <h3>{net["Name of Net"]}</h3>
@@ -293,24 +293,16 @@ export default function Nets() {
                 {nets.dailyHF.map((net) => {
                   return (
                     <a key={net["Name of Net"]} href={net.href}>
-                      <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.05] hover:border border-white transition-all text-white">
-                        <img
-                          src={net.image}
-                          className="aspect-video object-cover rounded-t-[8px]"
-                        />
-                        <div className="flex-grow flex flex-col gap-4 p-4">
-                          <h3>{net["Name of Net"]}</h3>
-                          <div className="flex-grow place-content-end flex flex-col gap-4">
-                            <p className="uppercase font-semibold text-sm">
-                              {net["Day"]}
-                            </p>
-                            <p>
-                              {net["UTC Time"]} UTC &bull; {net["Local Time"]}{" "}
-                              (Local)
-                            </p>
-                            <p>{net["Mode"]}</p>
-                          </div>
-                        </div>
+                      <div className="bg-neutral-700 flex flex-col justify-between gap-8 h-full rounded-[8px] p-8 hover:scale-[1.05] transition-all duration-700 text-white">
+                        <h3>{net["Name of Net"]}</h3>
+
+                        <p className="uppercase font-semibold text-sm">
+                          {net["Day"]}
+                        </p>
+                        <p>
+                          {net["UTC Time"]} UTC &bull; {net["Local Time"]}{" "}
+                          (Local)
+                        </p>
                       </div>
                     </a>
                   );
@@ -323,24 +315,16 @@ export default function Nets() {
                 {nets.weekdayHF.map((net) => {
                   return (
                     <a key={net["Name of Net"]} href={net.href}>
-                      <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.05] hover:border border-white transition-all text-white">
-                        <img
-                          src={net.image}
-                          className="aspect-video object-cover rounded-t-[8px]"
-                        />
-                        <div className="flex-grow flex flex-col gap-4 p-4">
-                          <h3>{net["Name of Net"]}</h3>
-                          <div className="flex-grow place-content-end flex flex-col gap-4">
-                            <p className="uppercase font-semibold text-sm">
-                              {net["Day"]}
-                            </p>
-                            <p>
-                              {net["UTC Time"]} UTC &bull; {net["Local Time"]}{" "}
-                              (Local)
-                            </p>
-                            <p>{net["Mode"]}</p>
-                          </div>
-                        </div>
+                      <div className="bg-neutral-700 flex flex-col justify-between gap-8 h-full rounded-[8px] p-8 hover:scale-[1.05] transition-all duration-700 text-white">
+                        <h3>{net["Name of Net"]}</h3>
+
+                        <p className="uppercase font-semibold text-sm">
+                          {net["Day"]}
+                        </p>
+                        <p>
+                          {net["UTC Time"]} UTC &bull; {net["Local Time"]}{" "}
+                          (Local)
+                        </p>
                       </div>
                     </a>
                   );
