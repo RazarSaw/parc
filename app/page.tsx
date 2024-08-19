@@ -2,7 +2,6 @@
 
 import News from "./components/News";
 import Side from "./Side";
-import Header2 from "./components/Header2";
 import Header from "./components/Header";
 import Link from "next/link";
 
