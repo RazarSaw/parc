@@ -2,6 +2,7 @@
 
 import News from "./components/News";
 import Side from "./Side";
+import Header2 from "./components/Header2";
 import Header from "./components/Header";
 import Link from "next/link";
 
@@ -52,6 +53,7 @@ export default function Home() {
   ];
   return (
     <>
+      {/* <Header2 /> */}
       <Header />
       <main className="bg-neutral-800">
         <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 lg:gap-8 container mx-auto py-16 px-4">
@@ -62,7 +64,7 @@ export default function Home() {
               </h2>
               <p>
                 <img
-                  src="/rptlocation1.jpg"
+                  src="/parc/rptlocation1.jpg"
                   className="float-right ml-8 mb-8 lg:w-1/2 w-full rounded-[8px]"
                 />
                 The Parkland Amateur Radio Club was started in 2002, and has
@@ -107,7 +109,7 @@ export default function Home() {
                 system, which provides several different modes of communication,
                 to a expanded coverage area. We are continuously updating our
                 equipment and repeater network, more information can be viewed
-                on our <Link href="./ham-radio-resources/repeaters-echolink-and-irlp">repeater page.</Link>
+                on our <Link href="./parc/ham-radio-resources/repeaters-echolink-and-irlp">repeater page.</Link>
               </p>
               <div className="grid xl:grid-cols-2 grid-cols-1 gap-8">
                 <iframe

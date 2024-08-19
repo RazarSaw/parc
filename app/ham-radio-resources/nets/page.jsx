@@ -30,7 +30,7 @@ export default function Nets() {
         "UTC Time": "02:00",
         "Name of Net": "PARC Chit Chat",
         Mode: "IRLP 9300 • EchoLink 496527",
-        image: "/Ham Radio Info Header.png",
+        image: "images/headers/Ham Radio Info Header.png",
         href: "#",
       },
       {
@@ -216,7 +216,7 @@ export default function Nets() {
   return (
     <>
       <header
-        className={`bg-[url('/Saskatchewan%202m%20IRLP%20Net.png')] bg-no-repeat bg-fixed bg-cover bg-center min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
+        className={`bg-[url('/parc/images/headers/Saskatchewan%202m%20IRLP%20Net.png')] bg-no-repeat bg-fixed bg-cover bg-center min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
       >
         <div className="backdrop-blur-md flex flex-col justify-center">
           <div className="container mx-auto p-8">
@@ -265,8 +265,8 @@ export default function Nets() {
                     <a key={net["Name of Net"]} href={net.href} className="group">
                       <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] duration-700 transition-all text-white">
                         <img
-                          src={`${net.image}`}
-                          className="aspect-video object-cover	hover:object-right rounded-t-[8px] md:object-left object-center transition-all group-hover:object-right duration-500"
+                          src={`/parc/${net.image}`}
+                          className="aspect-video object-cover hover:object-right rounded-t-[8px] md:object-left object-center transition-all group-hover:object-right duration-500"
                         />
                         <div className="flex-grow flex flex-col gap-4 p-4">
                           <h3>{net["Name of Net"]}</h3>

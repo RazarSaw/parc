@@ -81,7 +81,7 @@ export default function localInfo() {
                 wavelengths apart or 12 feet, with low power output was able to
                 have good quality audio.
               </p>
-              <img src="/micor_radio.jpg" className="max-w-lg" />
+              <img src="/parc/micor_radio.jpg" className="max-w-lg" />
             </>,
           ],
         },
@@ -657,9 +657,6 @@ export default function localInfo() {
       ],
     },
   ];
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
-
   return (
     <>
       <Header />

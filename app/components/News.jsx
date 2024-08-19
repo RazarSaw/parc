@@ -7,7 +7,7 @@ export default function News() {
       <div id="news" className="grid xl:grid-cols-2 grid-cols-1 gap-8">
         <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0">
           <img
-            src="/Manitoba Hamfest 2024.jpg"
+            src="/parc/Manitoba Hamfest 2024.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
           <article className="p-4 flex flex-col justify-between h-full gap-4">
@@ -43,7 +43,7 @@ export default function News() {
         </div>
         <div className="bg-neutral-700 rounded-[8px] p-0 flex flex-col h-full">
           <img
-            src="/1231685-Field-Day-operators-result.jpg"
+            src="/parc/1231685-Field-Day-operators-result.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
           <article className="p-4 flex flex-col justify-between h-full gap-4">

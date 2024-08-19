@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex lg:flex-row flex-col items-center gap-8">
           <Link href={"/"}>
             <img
-              src="/logo.png"
+              src="/parc/images/logos/logo.png"
               alt=""
               className="max-h-16 hover:scale-[1.05] transition-all aspect-square"
             />

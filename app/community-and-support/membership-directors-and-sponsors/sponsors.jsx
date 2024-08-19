@@ -217,7 +217,7 @@ export default function Sponsors() {
                 link.title
               ) : (
                 <img
-                  src={`/images/sponsors/${link.imageHref}`}
+                  src={`/parc/images/sponsors/${link.imageHref}`}
                   alt={link.alt}
                   className="rounded-[8px]"
                 />
@@ -236,7 +236,7 @@ function Friends() {
       title: "Frank & Angy Yaholnitsky",
       site: "Yorkton Repeater • VA5PAR • 145.490 (-) Mhz",
       href: "#",
-      imageHref: "FrankAngyYaholnitsky.jpg",
+      imageHref: "/parc/images/sponsors/FrankAngyYaholnitsky.jpg",
       desc: "Frank and Angy are very community service minded people. They are impressed with the public service and emergency communications aspects of ham radio and have generously allowed access to the 160 foot tower and radio shack, located at their property east of Yorkton. This has enabled the Parkland Amateur Radio Club to install a permanent commercial grade - long range repeater, that will serve all local hams as well as travelers on the Yellowhead Highway.",
       rowspan: 2,
       colspan: 2,
@@ -245,7 +245,7 @@ function Friends() {
       title: "Nick Toma",
       site: "Endeavour  Repeater • VA5INV • 147.080 (+) Mhz",
       href: "#",
-      imageHref: "nicktoma.jpg",
+      imageHref: "/parc/images/sponsors/nicktoma.jpg",
       desc: "Nick Toma has been very generous towards the Parkland Amateur Radio Club and members alike. Nick has been one of our main tower climbers and has donated his 150' Tower, which houses the Endeavour Repeater.   He has helped us out when it comes to testing out our radio's for optimum performance.   He has provided the Parkland Amateur Radio Club in providing a public service with emergency communications if the need should arise.  Located North of Preeceville, this repeater provides increase coverage, even where normal modes of communication don't work.",
       rowspan: 2,
       colspan: 3,
@@ -254,7 +254,7 @@ function Friends() {
       title: "PCS - Rocanville Division",
       site: " Rocanville Repeater • VA5RSR • 146.310 (-) Mhz",
       href: "https://www.nutrien.com/locations/potash-operations",
-      imageHref: "nutrien.svg",
+      imageHref: "/parc/images/sponsors/nutrien.svg",
       desc: "PCS Rocanville has been most generous to our club in providing a new repeater site for 2010-2011.  PCS Rocanville will help the Parkland Amateur Radio Club extend it's coverage area to cover the #1 Trans Canada Hwy",
       rowspan: 1,
       colspan: "3",
@@ -266,7 +266,7 @@ function Friends() {
         key={friend.title}
         className={`bg-neutral-700 rounded-[8px] flex flex-col justify-stretch overflow-hidden row-span-${friend.rowspan} col-span-${friend.colspan}`}
       >
-        <img src={`/images/sponsors/${friend.imageHref}`} />
+        <img src={`${friend.imageHref}`} />
         <div className="h-full flex flex-col gap-8 justify-center p-8">
           <h4>
             <Link className="text-white" href={friend.href}>

@@ -4,7 +4,7 @@ export default function repeaterEcholinkAndIRLP() {
   return (
     <>
       <header
-        className={`bg-[url('/micor_radio.jpg')] bg-no-repeat bg-fixed bg-cover  min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
+        className={`bg-[url('/parc/micor_radio.jpg')] bg-no-repeat bg-fixed bg-cover  min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
       >
         <div className="backdrop-blur-md flex flex-col justify-center">
           <div className="container mx-auto p-8">
@@ -35,7 +35,7 @@ export default function repeaterEcholinkAndIRLP() {
                 className="w-full"
               ></iframe>
               <img
-                src="/coverage.png"
+                src="/parc/coverage.png"
                 alt="Parkland Amateur Radio Club repeater coverage"
                 className="h-full w-full object-cover object-left"
               />
@@ -52,7 +52,7 @@ export default function repeaterEcholinkAndIRLP() {
             </p>
           </section>
         </div>
-        <section className="bg-[url('/cloudy-sky.webp')] bg-cover bg-bottom bg-fixed bg-black/70 bg-blend-multiply">
+        <section className="bg-[url('/parc/cloudy-sky.webp')] bg-cover bg-bottom bg-fixed bg-black/70 bg-blend-multiply">
           <div className="backdrop-blur-sm">
             <div className="container mx-auto px-8 py-16 flex flex-col gap-8 ">
               <h2>PARC Linking Project</h2>

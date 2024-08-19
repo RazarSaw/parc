@@ -39,20 +39,20 @@ const products = {
       name: "Ham Radio Info",
       description:
         "Interested in getting started, practicing for the exam, or a bit of ham history? ",
-      href: "/ham-radio-resources/ham-radio-info",
+      href: "/parc/ham-radio-resources/ham-radio-info",
       icon: CiCircleInfo,
     },
     {
       name: "Repeaters, EchoLink & IRLP",
       description:
         "PARC has a vast netwok of repeaters located in the province. Learn more about our owned repeaters. We use EchoLink & IRLP with most of our repeaters to create our wide repeater system.",
-      href: "/ham-radio-resources/repeaters-echolink-and-irlp",
+      href: "/parc/ham-radio-resources/repeaters-echolink-and-irlp",
       icon: LuRadioTower,
     },
     {
       name: "Nets",
       description: "PARC hosts and participates in various nets. Come join us!",
-      href: "/ham-radio-resources/nets",
+      href: "/parc/ham-radio-resources/nets",
       icon: MdOutlineGroups2,
     },
   ],
@@ -68,20 +68,20 @@ const products = {
       name: "Local Info",
       description:
         "PARC has a rich history for its grass roots in Saskatchewan. Learn more about our past, the present, and our eyes on the future",
-      href: "/community-and-support/local-info",
+      href: "/parc/community-and-support/local-info",
       icon: FaHome,
     },
     {
       name: "Links",
       description: "Find hundreds of links available at your disposile.",
-      href: "/community-and-support/links",
+      href: "/parc/community-and-support/links",
       icon: FaExternalLinkAlt ,
     },
     {
       name: "Membership, Directors, & Sponsors",
       description:
         "Our efforts would not be possible without the people who make it up!",
-      href: "/community-and-support/membership-directors-and-sponsors",
+      href: "/parc/community-and-support/membership-directors-and-sponsors",
       icon: MdOutlineCardMembership ,
     },
   ],
@@ -116,9 +116,9 @@ export default function Example() {
         className="mx-auto container flex items-center justify-between px-8 py-4 "
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <a href="/parc" className="-m-1.5 p-1.5">
             <span className="sr-only">Parkland Amateur Radio Club</span>
-            <img alt="" src="/logo.png" className="h-8 w-auto hover:scale-[1.1] transition-all" />
+            <img alt="" src="/parc/images/logos/logo.png" className="h-8 w-auto hover:scale-[1.1] transition-all" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -176,7 +176,7 @@ export default function Example() {
           ))}
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/community-and-support/membership-directors-and-sponsors" className="text-sm font-bold leading-6 text-blue-200">
+          <a href="/parc/community-and-support/membership-directors-and-sponsors" className="text-sm font-bold leading-6 text-blue-200">
             Become A Member! <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -189,9 +189,9 @@ export default function Example() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-neutral-800 px-8 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="/">
+            <a href="/parc">
               <span className="sr-only">Parkland Amateur Radio Club</span>
-              <img alt="" src="/logo.png" className="h-8 w-auto" />
+              <img alt="" src="/parc/images/logos/logo.png" className="h-8 w-auto" />
             </a>
             <button
               type="button"
