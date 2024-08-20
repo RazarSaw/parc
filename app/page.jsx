@@ -1,7 +1,7 @@
 "use client";
 
-import News from "./components/News";
-import Side from "./Side";
+import Side from "./side";
+import News from "./news";
 import Header from "./components/Header";
 import Link from "next/link";
 
@@ -52,7 +52,6 @@ export default function Home() {
   ];
   return (
     <>
-      {/* <Header2 /> */}
       <Header />
       <main className="bg-neutral-800">
         <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 lg:gap-8 container mx-auto py-16 px-4">
@@ -83,20 +82,20 @@ export default function Home() {
                 the Parklands, covering East Central Saskatchewan. Local
                 amateurs in Canora, Saskatchewan in the beginning consisted of
                 only 3, back in 2000, and eventually those same three formed the
-                club, known as the &apos;Canora Amateur Radio Club&apos;, in February
-                2002. We started with a local repeater, and soon had IRLP or
-                V.O.I.P. Communication installed and linked, which expanded our
-                range of communication to all around the world. Once more
-                operators knew of our local accomplishments they soon joined our
-                club. In January 2004, we started with the addition of EchoLink
-                to our existing IRLP Node, which also improved our coverage to
-                include communication via computer keyboard.
+                club, known as the &apos;Canora Amateur Radio Club&apos;, in
+                February 2002. We started with a local repeater, and soon had
+                IRLP or V.O.I.P. Communication installed and linked, which
+                expanded our range of communication to all around the world.
+                Once more operators knew of our local accomplishments they soon
+                joined our club. In January 2004, we started with the addition
+                of EchoLink to our existing IRLP Node, which also improved our
+                coverage to include communication via computer keyboard.
               </p>
               <p>
                 Our goals as a club seem to be changing faster than ever and
-                over the next couple of years more amateur&apos;s joined the club,
-                and in April 2006, we changed our club name to: The Parkland
-                Amateur Radio Club Inc., (P.A.R.C.).
+                over the next couple of years more amateur&apos;s joined the
+                club, and in April 2006, we changed our club name to: The
+                Parkland Amateur Radio Club Inc., (P.A.R.C.).
               </p>
             </section>
             <News />
@@ -108,7 +107,10 @@ export default function Home() {
                 system, which provides several different modes of communication,
                 to a expanded coverage area. We are continuously updating our
                 equipment and repeater network, more information can be viewed
-                on our <Link href="./parc/ham-radio-resources/repeaters-echolink-and-irlp">repeater page.</Link>
+                on our{" "}
+                <Link href="/parc/ham-radio-resources/repeaters-echolink-and-irlp">
+                  repeater page.
+                </Link>
               </p>
               <div className="grid xl:grid-cols-2 grid-cols-1 gap-8">
                 <iframe
@@ -134,7 +136,7 @@ export default function Home() {
                 and we are constantly upgrading and adding to our already proven
                 reliable system.
               </p>
-              <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] gap-8">
+              <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] md:gap-8 gap-4">
                 {repeaters.map((repeater) => {
                   return (
                     <article
