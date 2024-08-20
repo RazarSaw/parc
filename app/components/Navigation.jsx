@@ -45,7 +45,7 @@ const products = {
     {
       name: "Repeaters, EchoLink & IRLP",
       description:
-        "PARC has a vast netwok of repeaters located in the province. Learn more about our owned repeaters. We use EchoLink & IRLP with most of our repeaters to create our wide repeater system.",
+        "PARC has a vast netwok of EchoLink & IRLP linked repeaters located in the province.",
       href: "/parc/ham-radio-resources/repeaters-echolink-and-irlp",
       icon: LuRadioTower,
     },
