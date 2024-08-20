@@ -52,14 +52,14 @@ export default function Directors() {
               it up. From high level directors, to regular members, we&apos;re
               constantly hoping to gain people in the hobby.
             </p>
-            <div className="grid md:grid-cols-[repeat(auto-fit,_minmax(200px,1fr))] grid-cols-[repeat(auto-fill,_minmax(150px,1fr))] gap-8">
+            <div className="grid md:grid-cols-[repeat(auto-fill,_minmax(200px,1fr))] grid-cols-1 md:gap-8 gap-4">
               {members.directors.map((member) => {
                 return (
-                  <a key={member.name} href={member.href}>
-                    <div className="bg-neutral-700 group overflow-hidden flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] transition-all text-white">
+                  <a key={member.name} href={member.href} className="group">
+                    <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] transition-all text-white">
                       <img
                         src={`/parc/images/profiles/${member.callsign.toLowerCase()}.jpg`}
-                        className="aspect-square object-cover object-left transition-all group-hover:object-right rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
+                        className="w-full md:h-auto h-full md:aspect-square object-cover md:object-left object-center transition-all group-hover:object-right md:rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
                       />
                       <div className="flex-grow flex flex-col gap-4 p-4 z-40 overflow-hidden bg-neutral-700">
                         <h3 className="md:hidden block ">

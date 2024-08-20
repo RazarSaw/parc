@@ -51,7 +51,7 @@ export default function community() {
   return (
     <div className="bg-neutral-700 p-8 rounded-[8px] lg:col-span-4 col-span-2 md:row-span-3 lg:row-span-1 flex flex-col gap-8">
       <h3>Community Supports</h3>
-      <ul className="flex flex-wrap gap-8">
+      <ul className="flex flex-wrap md:gap-8 gap-4">
         {communities.map((community) => {
           return (
             <Link key={community.title} href={community.href} className="w-auto bg-neutral-500 rounded-[8px] py-1 px-3 grow text-center hover:scale-105 transition-all duration-700">

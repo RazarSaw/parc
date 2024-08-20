@@ -223,12 +223,7 @@ export default function Members() {
     <>
       <section className="flex flex-col gap-8 text-white">
         <h2>Regular Members</h2>
-        <p>
-          Our local club would not be possible without the people who make it
-          up. From high level directors, to regular members, we&apos;re constantly
-          hoping to gain people in the hobby.
-        </p>
-        <div className="grid md:grid-cols-[repeat(auto-fill,_minmax(200px,1fr))] grid-cols-1 gap-8">
+        <div className="grid md:grid-cols-[repeat(auto-fill,_minmax(200px,1fr))] grid-cols-1 md:gap-8 gap-4">
           {members.regular.map((member) => {
             return (
               <a key={member.name} href={member.href} className="group">
@@ -263,12 +258,7 @@ export default function Members() {
       </section>
       <section className="flex flex-col gap-8 text-white">
         <h2>Associate Members</h2>
-        <p>
-          Our local club would not be possible without the people who make it
-          up. From high level directors, to regular members, we&apos;re constantly
-          hoping to gain people in the hobby.
-        </p>
-        <div className="grid md:grid-cols-[repeat(auto-fill,_minmax(200px,1fr))] grid-cols-1 gap-8">
+        <div className="grid md:grid-cols-[repeat(auto-fill,_minmax(200px,1fr))] grid-cols-1 md:gap-8 gap-4">
           <a className="group">
             <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] transition-all text-white">
               <img
