@@ -121,7 +121,7 @@ export default function Members() {
         name: "Randy Molyneaux",
         callsign: "VE5RJM",
         href: "http://www.qrz.com/db/ve5rjm",
-        "member-since": "2023",
+        "member-since": "2000",
         XYL: "Michelle",
       },
       {
