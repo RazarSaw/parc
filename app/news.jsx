@@ -10,8 +10,8 @@ export default function News() {
             src="/parc/Manitoba Hamfest 2024.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
-          <article className="p-4 flex flex-col justify-between h-full gap-4">
-            <div className="flex-grow flex flex-col gap-4">
+          <article className="p-8 flex flex-col justify-between h-full gap-8">
+            <div className="flex-grow flex flex-col gap-8">
               <h3>Manitoba Ham Fest</h3>
               <p className="uppercase font-semibold text-sm">
                 August 17, 2024 &bull; 10:00 - 15:00 (Local Times) &bull;
@@ -46,8 +46,8 @@ export default function News() {
             src="/parc/1231685-Field-Day-operators-result.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
-          <article className="p-4 flex flex-col justify-between h-full gap-4">
-            <div className="flex-grow flex flex-col gap-4">
+          <article className="p-8 flex flex-col justify-between h-full gap-8">
+            <div className="flex-grow flex flex-col gap-8">
               <h3>PARC Field Day</h3>
               <p className="uppercase font-semibold text-sm">
                 Friday June 25th, 2025 (Setup) &bull; 1800 Saturday - 2059
