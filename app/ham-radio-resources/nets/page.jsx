@@ -1,3 +1,6 @@
+import Links from "../../components/Links";
+import Header from "./header";
+
 export default function Nets() {
   const links = [
     {
@@ -21,7 +24,7 @@ export default function Nets() {
         "UTC Time": "03:00",
         "Name of Net": "Land of the Living Skies Net",
         Mode: "IRLP 9300 • EchoLink 496527",
-        image: "/rs=w_388,h_388,cg_true.webp",
+        image: "/Sky 1.webp",
         href: "https://sarl.ca/departments/",
       },
       {
@@ -30,7 +33,7 @@ export default function Nets() {
         "UTC Time": "02:00",
         "Name of Net": "PARC Chit Chat",
         Mode: "IRLP 9300 • EchoLink 496527",
-        image: "images/headers/Ham Radio Info Header.png",
+        image: "images/headers/ham-radio-info.png",
         href: "#",
       },
       {
@@ -215,45 +218,22 @@ export default function Nets() {
   };
   return (
     <>
-      <header
-        className={`bg-[url('/parc/images/headers/Saskatchewan%202m%20IRLP%20Net.png')] bg-no-repeat bg-fixed bg-cover bg-center min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
-      >
-        <div className="backdrop-blur-md flex flex-col justify-center">
-          <div className="container mx-auto p-8">
-            <h1>Nets</h1>
-          </div>
-        </div>
-      </header>
+      <Header />
       <main className="bg-neutral-800">
         <div className="container mx-auto py-16 p-8 flex flex-col gap-16">
-          <section className="flex flex-row gap-8 flex-wrap justify-stretch items-stretch text-center">
-            {links.map((link) => {
-              return (
-                <a
-                  href={link.href}
-                  key={link.title}
-                  className="flex-1 bg-neutral-700 rounded-[8px] transition-all hover:scale-[1.05] p-4 flex items-center justify-center min-w-[250px]"
-                >
-                  <p>{link.title}</p>
-                </a>
-              );
-            })}
-          </section>
+          <Links props={links} />
           <section className="text-white flex flex-col gap-8">
             <h2>What Is A Net?</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quibusdam sequi placeat culpa nostrum quisquam laboriosam vero,
-              recusandae quam illum repudiandae architecto, tempore tenetur
-              accusantium ullam ab nihil numquam maiores eum vel praesentium hic
-              nisi. Fugiat dignissimos provident mollitia aliquam quod, saepe
-              amet, maiores distinctio quasi, inventore non repellat molestiae
-              porro a magnam laborum animi! Esse, recusandae possimus, doloribus
-              dolores suscipit sequi dolore aliquid, est similique et nostrum
-              alias illum quo sit aperiam ea molestias ab a laboriosam! Tenetur
-              aperiam alias tempora nulla excepturi. Quasi, voluptatibus eos.
-              Sed iste, accusamus accusantium porro necessitatibus sapiente qui
-              animi architecto dolore, sunt, ducimus eligendi.
+              An amateur radio net is a scheduled on-air gathering of amateur
+              radio operators designed to facilitate communication, information
+              exchange, and community building. These nets serve a variety of
+              purposes, from providing crucial communication support during
+              emergencies and public events to offering a platform for sharing
+              technical advice, weather reports, and other relevant news.
+              Whether focused on emergency preparedness, technical discussions,
+              or simply fostering camaraderie among hams, these nets are a
+              cornerstone of the amateur radio community.
             </p>
           </section>
           <section className="flex flex-col gap-16 text-white">
@@ -262,7 +242,11 @@ export default function Nets() {
               <div className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] gap-8">
                 {nets.vhf.map((net) => {
                   return (
-                    <a key={net["Name of Net"]} href={net.href} className="group">
+                    <a
+                      key={net["Name of Net"]}
+                      href={net.href}
+                      className="group"
+                    >
                       <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0 hover:scale-[1.02] duration-700 transition-all text-white">
                         <img
                           src={`/parc/${net.image}`}
