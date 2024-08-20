@@ -1,17 +1,10 @@
 import Link from "next/link";
+import Header from "./header";
 
 export default function repeaterEcholinkAndIRLP() {
   return (
     <>
-      <header
-        className={`bg-[url('/parc/micor_radio.jpg')] bg-no-repeat bg-fixed bg-cover  min-h-[40vh] grid grid-cols-1 grid-rows-1 justify-center bg-blue-300 bg-blend-multiply`}
-      >
-        <div className="backdrop-blur-md flex flex-col justify-center">
-          <div className="container mx-auto p-8">
-            <h1>Repeaters, EchoLink, & IRLP</h1>
-          </div>
-        </div>
-      </header>
+      <Header />
       <main className="bg-neutral-800">
         <div className="container mx-auto py-16 p-8 flex flex-col gap-16">
           <section className="flex flex-col gap-8">
@@ -52,7 +45,7 @@ export default function repeaterEcholinkAndIRLP() {
             </p>
           </section>
         </div>
-        <section className="bg-[url('/parc/cloudy-sky.webp')] bg-cover bg-bottom bg-fixed bg-black/70 bg-blend-multiply">
+        <section className="bg-[url('/parc/Sky%202.webp')] bg-cover bg-bottom bg-fixed bg-black/90 bg-blend-multiply">
           <div className="backdrop-blur-sm">
             <div className="container mx-auto px-8 py-16 flex flex-col gap-8 ">
               <h2>PARC Linking Project</h2>
@@ -64,17 +57,17 @@ export default function repeaterEcholinkAndIRLP() {
                 project, it is taking longer than we had hoped for.
               </p>
               <p>
-                The linking project&apos;s main goal is to expand our local coverage
-                area to be province wide, and also link into Manitoba, the DARC
-                System, which will give coverage expanded to Eastern Canada.
-                This is a major project taken on solely by a local club to
-                improve our current communication system. Since all our repeater
-                sites are on battery backup power, we can deliver uninterrupted
-                communication even when our power grid fails, conditions are
-                poor for HF Communication, or when internet services are down.
-                Yes our goal is high but with a high commitment from our
-                members, volunteers, municipal support, and individual
-                donations, we are confident, we can achieve.
+                The linking project&apos;s main goal is to expand our local
+                coverage area to be province wide, and also link into Manitoba,
+                the DARC System, which will give coverage expanded to Eastern
+                Canada. This is a major project taken on solely by a local club
+                to improve our current communication system. Since all our
+                repeater sites are on battery backup power, we can deliver
+                uninterrupted communication even when our power grid fails,
+                conditions are poor for HF Communication, or when internet
+                services are down. Yes our goal is high but with a high
+                commitment from our members, volunteers, municipal support, and
+                individual donations, we are confident, we can achieve.
               </p>
               <p>
                 When completed the following sites will be linked: Yorkton,
