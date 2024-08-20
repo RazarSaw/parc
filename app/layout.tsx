@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" type="image/png" href="/parklandarc/logos/logo.png" />
+      </head>
       <body className={inter.className}>
         <Navigation />
         {children}
