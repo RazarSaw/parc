@@ -933,12 +933,12 @@ export default function Links() {
             >
               {sections.map((section) => (
                 <AccordionItem title={section.title} key={section.title}>
-                  <section className="flex flex-row gap-8 flex-wrap justify-stretch items-stretch text-center py-8">
+                  <section className="flex flex-row lg:gap-8 gap-4 flex-wrap justify-stretch items-stretch py-8">
                     {section.links.map((link) => (
                       <a
                         href={link.href}
                         key={link.title}
-                        className="flex-grow bg-neutral-700 rounded-[8px] transition-all hover:scale-[1.05] p-4 flex items-center justify-center min-w-[250px]"
+                        className="flex-grow bg-neutral-700 hover:bg-neutral-700/90 rounded-[8px] transition-all hover:scale-[1.02] p-4 flex items-center md:justify-center min-w-[250px] text-white  md:text-center text-left text-sm"
                       >
                         <p>{link.title}</p>
                       </a>
