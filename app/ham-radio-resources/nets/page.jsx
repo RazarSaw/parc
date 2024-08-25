@@ -277,7 +277,7 @@ export default function Nets() {
                 {nets.dailyHF.map((net) => {
                   return (
                     <a key={net["Name of Net"]} href={net.href}>
-                      <div className="bg-neutral-700 flex flex-col justify-between gap-8 h-full rounded-[8px] p-8 hover:scale-[1.05] transition-all duration-700 text-white">
+                      <div className="bg-neutral-700 flex flex-col justify-between gap-8 h-full rounded-[8px] lg:p-8 p-4 hover:scale-[1.05] transition-all duration-700 text-white">
                         <h3>{net["Name of Net"]}</h3>
 
                         <p className="uppercase font-semibold text-sm">
@@ -299,7 +299,7 @@ export default function Nets() {
                 {nets.weekdayHF.map((net) => {
                   return (
                     <a key={net["Name of Net"]} href={net.href}>
-                      <div className="bg-neutral-700 flex flex-col justify-between gap-8 h-full rounded-[8px] p-8 hover:scale-[1.05] transition-all duration-700 text-white">
+                      <div className="bg-neutral-700 flex flex-col justify-between gap-8 h-full rounded-[8px] lg:p-8 p-4 hover:scale-[1.05] transition-all duration-700 text-white">
                         <h3>{net["Name of Net"]}</h3>
 
                         <p className="uppercase font-semibold text-sm">
