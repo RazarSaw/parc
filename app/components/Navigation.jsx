@@ -138,7 +138,7 @@ export default function Example() {
                 {category}
                 <ChevronDownIcon
                   aria-hidden="true"
-                  className="h-5 w-5 flex-none text-neutral-700"
+                  className="h-5 w-5 flex-none text-white"
                 />
               </PopoverButton>
 
