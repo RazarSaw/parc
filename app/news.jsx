@@ -2,16 +2,16 @@
 
 export default function News() {
   return (
-    <section className="flex flex-col gap-8">
+    <section className="flex flex-col gap-4">
       <h2>Bulletins</h2>
-      <div id="news" className="grid xl:grid-cols-2 grid-cols-1 gap-8">
+      <div id="news" className="grid xl:grid-cols-2 grid-cols-1 gap-4">
         <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0">
           <img
             src="/parc/Manitoba Hamfest 2024.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
-          <article className="p-8 flex flex-col justify-between h-full gap-8">
-            <div className="flex-grow flex flex-col gap-8">
+          <article className="p-4 flex flex-col justify-between h-full gap-4">
+            <div className="flex-grow flex flex-col gap-4">
               <h3>Manitoba Ham Fest</h3>
               <p className="uppercase font-semibold text-sm">
                 August 17, 2024 &bull; 10:00 - 15:00 (Local Times) &bull;
@@ -46,8 +46,8 @@ export default function News() {
             src="/parc/1231685-Field-Day-operators-result.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
-          <article className="p-8 flex flex-col justify-between h-full gap-8">
-            <div className="flex-grow flex flex-col gap-8">
+          <article className="p-4 flex flex-col justify-between h-full gap-4">
+            <div className="flex-grow flex flex-col gap-4">
               <h3>PARC Field Day</h3>
               <p className="uppercase font-semibold text-sm">
                 Friday June 25th, 2025 (Setup) &bull; 1800 Saturday - 2059
