@@ -2,9 +2,9 @@
 
 export default function News() {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-8">
       <h2>Bulletins</h2>
-      <div id="news" className="grid xl:grid-cols-2 grid-cols-1 gap-4">
+      <div id="news" className="grid xl:grid-cols-2 grid-cols-1 gap-8">
         <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0">
           <img
             src="/parc/Manitoba Hamfest 2024.jpg"
