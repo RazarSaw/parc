@@ -32,6 +32,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Link from "next/link";
 
 const products = {
   "Ham Radio Resources": [
@@ -39,20 +40,20 @@ const products = {
       name: "Ham Radio Info",
       description:
         "Interested in getting started, practicing for the exam, or a bit of ham history? ",
-      href: "/parc/ham-radio-resources/ham-radio-info",
+      href: "/parc/ham-radio-resources/ham-radio-info.html",
       icon: CiCircleInfo,
     },
     {
       name: "Repeaters, EchoLink & IRLP",
       description:
         "PARC has a vast netwok of EchoLink & IRLP linked repeaters located in the province.",
-      href: "/parc/ham-radio-resources/repeaters-echolink-and-irlp",
+      href: "/parc/ham-radio-resources/repeaters-echolink-and-irlp.html",
       icon: LuRadioTower,
     },
     {
       name: "Nets",
       description: "PARC hosts and participates in various nets. Come join us!",
-      href: "/parc/ham-radio-resources/nets",
+      href: "/parc/ham-radio-resources/nets.html",
       icon: MdOutlineGroups2,
     },
   ],
@@ -68,20 +69,20 @@ const products = {
       name: "Local Info",
       description:
         "PARC has a rich history for its grass roots in Saskatchewan. Learn more about our past, the present, and our eyes on the future",
-      href: "/parc/community-and-support/local-info",
+      href: "/parc/community-and-support/local-info.html",
       icon: FaHome,
     },
     {
       name: "Links",
       description: "Find hundreds of links available at your disposile.",
-      href: "/parc/community-and-support/links",
+      href: "/parc/community-and-support/links.html",
       icon: FaExternalLinkAlt ,
     },
     {
       name: "Membership, Directors, & Sponsors",
       description:
         "Our efforts would not be possible without the people who make it up!",
-      href: "/parc/community-and-support/membership-directors-and-sponsors",
+      href: "/parc/community-and-support/membership-directors-and-sponsors.html",
       icon: MdOutlineCardMembership ,
     },
   ],
@@ -176,7 +177,7 @@ export default function Example() {
           ))}
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/parc/community-and-support/membership-directors-and-sponsors" className="text-sm font-bold leading-6 text-blue-200">
+          <a href="/parc/community-and-support/membership-directors-and-sponsors.html" className="text-sm font-bold leading-6 text-blue-200">
             Become A Member! <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
