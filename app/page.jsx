@@ -3,58 +3,14 @@
 import Side from "./side";
 import News from "./news";
 import Header from "./components/Header";
-import Link from "next/link";
+import Repeaters from "./repeaters";
 
 export default function Home() {
-  const repeaters = [
-    {
-      location: "Canora",
-      callsign: "VA5EMO",
-      frequency: "147.300 + MHz",
-      tone: "No Tone",
-      info: "IRLP / EchoLink / UHF / Reflector 9300",
-    },
-    {
-      location: "Hendon",
-      callsign: "VE5EML",
-      frequency: "146.610 - MHz",
-      tone: "No Tone",
-      info: "IRLP / Reflector 9300",
-    },
-    {
-      location: "Norquay",
-      callsign: "VA5INV",
-      frequency: "147.080 + MHz",
-      tone: "No Tone",
-      info: "IRLP / EchoLink / UHF / Reflector 9300",
-    },
-    {
-      location: "Rocanville",
-      callsign: "VA5RSR",
-      frequency: "145.310 - MHz",
-      tone: "100.0",
-      info: "IRLP / EchoLink / Reflector 9300",
-    },
-    {
-      location: "Yorkton",
-      callsign: "VA5PAR",
-      frequency: "145.490 - MHz",
-      tone: "No Tone",
-      info: "IRLP / EchoLink / UHF / Reflector 9300",
-    },
-    {
-      location: "Fort Qu'Appelle",
-      callsign: "VE5RJK",
-      frequency: "146.4300 (no offset) MHz",
-      tone: "No Tone",
-      info: "IRLP / Reflector 9300",
-    },
-  ];
   return (
     <>
       <Header />
       <main className="bg-neutral-800">
-        <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 lg:gap-8 container mx-auto py-16 px-4">
+        <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 lg:gap-8 container mx-auto md:py-16 md:px-4 py-8 px-2">
           <div className="p-4 text-white flex flex-col gap-20">
             <section className="flex flex-col gap-8">
               <h2>
@@ -108,19 +64,20 @@ export default function Home() {
                 to a expanded coverage area. We are continuously updating our
                 equipment and repeater network, more information can be viewed
                 on our{" "}
-                <Link href="/parc/ham-radio-resources/repeaters-echolink-and-irlp">
+                <a href="/parc/ham-radio-resources/repeaters-echolink-and-irlp.html">
                   repeater page.
-                </Link>
+                </a>
               </p>
-              <div className="grid xl:grid-cols-2 grid-cols-1 gap-8">
-                <iframe
-                  src="https://www.google.com/maps/d/embed?mid=1hhj566FHT62oBQi-0ETpRZiKpja1_yf7&ehbc=2E312F"
-                  height="480"
-                  className="w-full"
-                ></iframe>
+              <div className="flex flex-col gap-8">
+                <h3>Interested In Our Network?</h3>
+                <p>
+                  Below is the latest mapping of our club&apos;s coverage. As our
+                  club evolves, we intend to grow our system by adding more
+                  local communities to our coverage.
+                </p>
                 <iframe
                   src="https://www.google.com/maps/d/embed?mid=17ofkEFonsS4s7nLT0yQfRQ33v__5Mo8&ehbc=2E312F"
-                  height="480"
+                  height="400"
                   className="w-full"
                 ></iframe>
               </div>
@@ -136,24 +93,26 @@ export default function Home() {
                 and we are constantly upgrading and adding to our already proven
                 reliable system.
               </p>
-              <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] md:gap-8 gap-4">
-                {repeaters.map((repeater) => {
-                  return (
-                    <article
-                      className="bg-neutral-700 rounded-[8px] p-4"
-                      key={repeater.callsign}
-                    >
-                      <h3 className="pb-4">{repeater.location}</h3>
-                      <div>
-                        <p>{repeater.callsign}</p>
-                        <p>{repeater.frequency}</p>
-                        <p>{repeater.tone}</p>
-                        <p>{repeater.info.replaceAll("/", "•")}</p>
-                      </div>
-                    </article>
-                  );
-                })}
-              </section>
+              <Repeaters />
+              <p>
+                The repeater system is integrated with both EchoLink and IRLP
+                (Internet Radio Linking Project), enabling seamless connectivity
+                with other repeaters and amateur radio operators across the
+                province and beyond. With EchoLink, licensed amateur radio
+                operators can connect to the repeater via the internet, allowing
+                them to communicate with other operators using a computer,
+                smartphone, or tablet from virtually anywhere in the world. This
+                feature is particularly useful for members who may be traveling
+                or are outside the range of the local repeater. Our local system
+                is interlinked with the provincial repeater system. Check out
+                more below.
+              </p>
+              <a
+                href="https://ve5ufo-radiospace.godaddysites.com/"
+                className="bg-blue-400 hover:bg-blue-500 rounded-[8px] p-4 text-white font-semibold hover:scale-[1.01] transition-all"
+              >
+                <p>Visit SASKWARN (Wireless Amateur Radio Network)</p>
+              </a>
             </section>
           </div>
 
