@@ -68,7 +68,7 @@ const products = {
     {
       name: "Local Info",
       description:
-        "PARC has a rich history for its grass roots in Saskatchewan. Learn more about our past, the present, and our eyes on the future",
+        "PARC has a rich history for its grass roots in Saskatchewan.",
       href: "/parc/community-and-support/local-info.html",
       icon: FaHome,
     },
@@ -151,9 +151,9 @@ export default function Example() {
                   {products[category].map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-neutral-500 transition-colors"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-neutral-600 transition-colors"
                     >
-                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-neutral-600 group-hover:bg-neutral-600 transition-colors">
+                      <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-neutral-600 group-hover:bg-neutral-500 transition-colors">
                         <item.icon
                           aria-hidden="true"
                           className="h-6 w-6 text-white group-hover:text-blue-200"
