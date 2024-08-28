@@ -67,9 +67,16 @@ export default function HamRadioInfo() {
         </div>
       </main>
 
-      <section className="bg-[url('/parc/Yagi%20Uda.jpg')] bg-cover bg-no-repeat min-h-[40vh] bg-black/50 bg-blend-multiply grid place-items-center text-white font-bold text-2xl">
-        <p className="container mx-auto p-8 text-center">
-          &quot;Insert some weird quote RJM!&quot;
+      <section className="bg-[url('/parc/Yagi%20Uda.jpg')] bg-fixed bg-center bg-cover bg-no-repeat min-h-[40vh] bg-black/80 bg-blend-multiply grid place-items-center">
+        <p className="container mx-auto p-8 text-right text-white text-xl leading-loose">
+          <span>
+            &quot;Amateur radio operators are the guardians of the airwaves,
+            ensuring that the art and science of communication remains vibrant
+            and alive.&quot;
+          </span>
+          <br />
+          <br />
+          <span className="font-bold">– Joe Taylor (K1JT)</span>
         </p>
       </section>
       <main className="bg-neutral-800 text-white">
