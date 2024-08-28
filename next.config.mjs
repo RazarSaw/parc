@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/parklandarc",
+  basePath: "/parc",
   output: "export",
   reactStrictMode: true,
 };
-
-export default nextConfig;
