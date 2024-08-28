@@ -10,8 +10,8 @@ export default function Home() {
     <>
       <Header />
       <main className="bg-neutral-800">
-        <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 lg:gap-8 container mx-auto md:py-16 md:px-4 py-8 px-2">
-          <div className="p-4 text-white flex flex-col gap-20">
+        <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 gap-16 container mx-auto py-16 px-8">
+          <div className="text-white flex flex-col gap-16">
             <section className="flex flex-col gap-8">
               <h2>
                 Connecting Communities for Public Service, CANWARN and FUN

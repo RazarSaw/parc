@@ -59,7 +59,7 @@ export default function Repeaters() {
     },
   ];
   return (
-    <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] md:gap-8 gap-4">
+    <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] gap-8">
       {repeaters.map((repeater) => {
         return (
           <a

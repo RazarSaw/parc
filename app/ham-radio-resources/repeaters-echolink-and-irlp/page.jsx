@@ -6,7 +6,7 @@ export default function repeaterEcholinkAndIRLP() {
     <>
       <Header />
       <main className="bg-neutral-800">
-        <div className="container mx-auto py-16 p-8 flex flex-col gap-16">
+        <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 lg:gap-8 container mx-auto py-16 px-8">
           <section className="flex flex-col gap-8">
             <h2>Our Repeater System</h2>
             <p>
@@ -16,21 +16,15 @@ export default function repeaterEcholinkAndIRLP() {
               to a expanded coverage area. We are continuously updating our
               equipment and repeater network.
             </p>
-            <div className="grid xl:grid-cols-3 grid-cols-1 gap-8">
-              <iframe
-                src="https://www.google.com/maps/d/embed?mid=1hhj566FHT62oBQi-0ETpRZiKpja1_yf7&ehbc=2E312F"
-                height="480"
-                className="w-full"
-              ></iframe>
+            <div className="grid xl:grid-cols-2 grid-cols-1 gap-8">
               <iframe
                 src="https://www.google.com/maps/d/embed?mid=17ofkEFonsS4s7nLT0yQfRQ33v__5Mo8&ehbc=2E312F"
-                height="480"
-                className="w-full"
+                className="w-full aspect-square md:aspect-video"
               ></iframe>
               <img
                 src="/parc/coverage.png"
                 alt="Parkland Amateur Radio Club repeater coverage"
-                className="h-full w-full object-cover object-left"
+                className="h-full w-full object-cover object-left aspect-square md:aspect-video"
               />
             </div>
             <p>

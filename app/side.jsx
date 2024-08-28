@@ -14,7 +14,7 @@ export default function Side() {
     "1884",
   ];
   return (
-    <aside className="p-4 flex flex-col gap-8">
+    <aside className="flex flex-col gap-8">
       <article className="flex flex-col gap-8">
         <h2 className="text-white">IRLP Nodes</h2>
         <ul className="bg-slate-200 rounded-[8px] p-4">
