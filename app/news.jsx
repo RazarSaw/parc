@@ -13,7 +13,7 @@ const news = [
     description: (
       <>
         <p>
-          That's right: Field Day 2025 is happening and it's happening in
+          That&apos;s right: Field Day 2025 is happening and it&apos;s happening in
           Canora, SK! More details to follow when the date is closer.
         </p>
       </>
