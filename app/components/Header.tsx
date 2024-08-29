@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 export default function Header() {
   return (
     <>
-      <header className="grid place-items-center gap-8 px-8 py-16 bg-[url('/parc/images/headers/home.png')] bg-cover bg-bottom min-h-[40vh] bg-blend-multiply bg-gray-500 text-center">
+      <header className="grid place-items-center gap-8 px-8 py-16 bg-[url('/parc/images/headers/home.webp')] bg-cover bg-bottom min-h-[40vh] bg-blend-multiply bg-gray-500 text-center">
         <Link href={"/"} className="hover:scale-[1.05] transition-all">
           <motion.img
-            initial={{ x: -9999 }}
-            animate={{ x: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 100 }}
             transition={{ duration: "1.5", }}
-            src="/parc/images/logos/PARC-banner.png"
+            src="/parc/images/logos/PARC-banner.webp"
             alt="Parkland Amateur Radio Club banner"
           />
         </Link>
