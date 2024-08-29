@@ -6,7 +6,7 @@ export default function Repeaters() {
     {
       location: "Canora",
       href: "https://repeater.world/repeaters/va5emo-2m-canora-saskatchewan-canada",
-      image: "bg-[url('/parc/images/locations/Canora.png')]",
+      image: "bg-[url('/parc/images/locations/Canora.webp')]",
       callsign: "VA5EMO",
       frequency: "147.300 + MHz",
       tone: "No Tone",
@@ -15,7 +15,7 @@ export default function Repeaters() {
     {
       location: "Hendon",
       href: "https://repeater.world/repeaters/ve5eml-2m-hendon-saskatchewan-canada",
-      image: "bg-[url('/parc/images/locations/Hendon.png')]",
+      image: "bg-[url('/parc/images/locations/Hendon.webp')]",
       callsign: "VE5EML",
       frequency: "146.610 - MHz",
       tone: "No Tone",
@@ -24,7 +24,7 @@ export default function Repeaters() {
     {
       location: "Norquay",
       href: "https://repeater.world/repeaters/va5inv-2m-fm-norquay-saskatchewan-canada",
-      image: "bg-[url('/parc/images/locations/Norquay.png')]",
+      image: "bg-[url('/parc/images/locations/Norquay.webp')]",
       callsign: "VA5INV",
       frequency: "147.080 + MHz",
       tone: "No Tone",
@@ -33,7 +33,7 @@ export default function Repeaters() {
     {
       location: "Rocanville",
       href: "https://repeater.world/repeaters/va5rsr-2m-fm-rocanville-saskatchewan-canada",
-      image: "bg-[url('/parc/images/locations/Rocanville.png')]",
+      image: "bg-[url('/parc/images/locations/Rocanville.webp')]",
       callsign: "VA5RSR",
       frequency: "145.310 - MHz",
       tone: "100.0",
@@ -42,7 +42,7 @@ export default function Repeaters() {
     {
       location: "Yorkton",
       href: "https://repeater.world/repeaters/va5par-2m-yorkton-saskatchewan-canada",
-      image: "bg-[url('/parc/images/locations/Yorkton.png')]",
+      image: "bg-[url('/parc/images/locations/Yorkton.webp')]",
       callsign: "VA5PAR",
       frequency: "145.490 - MHz",
       tone: "No Tone",
@@ -51,7 +51,7 @@ export default function Repeaters() {
     {
       location: "Fort Qu'Appelle",
       href: "https://repeater.world/repeaters/ve5rjk-2m-fm-fort-qu-appelle-saskatchewan-canada",
-      image: "bg-[url('/parc/images/locations/Fort-QuAppelle.png')]",
+      image: "bg-[url('/parc/images/locations/Fort-QuAppelle.webp')]",
       callsign: "VE5RJK",
       frequency: "146.430 MHz",
       tone: "No Tone",

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function Side() {
   const irlpNodes = [
@@ -27,10 +28,10 @@ export default function Side() {
                 height="20"
                 name="I42"
                 scrolling="no"
+                title={`IRLP node ${node}`}
                 src={`https://irlp.g4eid-km8h.net/status/nodes/status${node}.html`}
                 width="240"
-              >
-              </iframe>
+              ></iframe>
             </li>
           ))}
         </ul>
@@ -38,13 +39,34 @@ export default function Side() {
       <h2>Callsign Search</h2>
       <article className="bg-slate-200 rounded-[8px] flex justify-center p-4 gap-4 flex-wrap">
         <a href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup">
-          <img src="/parc/images/logos/rac-logo-2.svg" className="max-h-32" />
+          <Image
+            layout="responsive"
+            width={200}
+            height={200}
+            alt="Radio Amateurs of Canada logo"
+            src="/parc/images/logos/rac-logo-2.svg"
+            className="max-h-32"
+          />
         </a>
         <a href="https://www.arrl.org/advanced-call-sign-search">
-          <img src="/parc/images/logos/ARRL_logo.svg.png" className="max-h-32" />
+          <Image
+            layout="responsive"
+            width={200}
+            height={200}
+            alt="American Radio Relay League logo"
+            src="/parc/images/logos/ARRL_logo.svg.png"
+            className="max-h-32"
+          />
         </a>
         <a href="https://www.qrz.com/lookup">
-          <img src="/parc/images/logos/QRZcom Globe Logo_2.png" className="max-h-32" />
+          <Image
+            layout="responsive"
+            width={200}
+            height={200}
+            alt="QRZ globe logo"
+            src="/parc/images/logos/QRZcom Globe Logo_2.png"
+            className="max-h-32"
+          />
         </a>
       </article>
       <h2>Solar Weather</h2>
@@ -53,11 +75,19 @@ export default function Side() {
         title="Click to add Solar-Terrestrial Data to your website!"
         className="bg-black p-4 rounded-[8px] grid place-items-center"
       >
-        <img
+        <Image
+          layout="responsive"
+          width={200}
+          height={200}
+          alt="Details of solar activity"
           src="https://www.hamqsl.com/solarn0nbh.php"
           className="w-full hidden xl:block"
         />
-        <img
+        <Image
+          layout="responsive"
+          width={200}
+          height={200}
+          alt="Details of solar activity"
           src="https://www.hamqsl.com/solar101vhfpic.php"
           className="xl:hidden inline "
         />

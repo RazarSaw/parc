@@ -2,9 +2,12 @@
 import { CiCircleInfo } from "react-icons/ci";
 import { LuRadioTower, LuWheat } from "react-icons/lu";
 import { IoMdWifi } from "react-icons/io";
-import { MdOutlineGroups2, MdEmergency, MdOutlineCardMembership  } from "react-icons/md";
+import {
+  MdOutlineGroups2,
+  MdEmergency,
+  MdOutlineCardMembership,
+} from "react-icons/md";
 import { FaHome, FaExternalLinkAlt, FaStore } from "react-icons/fa";
-
 
 import { useState } from "react";
 import {
@@ -33,6 +36,7 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 import Link from "next/link";
+import Image from "next/image";
 
 const products = {
   "Ham Radio Resources": [
@@ -76,14 +80,14 @@ const products = {
       name: "Links",
       description: "Find hundreds of links available at your disposile.",
       href: "/parc/community-and-support/links.html",
-      icon: FaExternalLinkAlt ,
+      icon: FaExternalLinkAlt,
     },
     {
       name: "Membership, Directors, & Sponsors",
       description:
         "Our efforts would not be possible without the people who make it up!",
       href: "/parc/community-and-support/membership-directors-and-sponsors.html",
-      icon: MdOutlineCardMembership ,
+      icon: MdOutlineCardMembership,
     },
   ],
   "Swap N' Shop": [
@@ -97,7 +101,7 @@ const products = {
       name: "Saskatchewan Ham Radio Swap and Shop",
       description: "Access local supplies from local hams",
       href: "https://www.va5bug.net/",
-      icon: LuWheat ,
+      icon: LuWheat,
     },
   ],
 };
@@ -119,7 +123,13 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="/parc" className="-m-1.5 p-1.5">
             <span className="sr-only">Parkland Amateur Radio Club</span>
-            <img alt="" src="/parc/images/logos/logo.png" className="h-8 w-auto hover:scale-[1.1] transition-all" />
+            <Image
+              width={32}
+              height={32}
+              alt="Parkland Amateur Radio Club logo (globe with the province of Saskatchewan outlined, and Parkland Amateur Radio Club text)"
+              src="/parc/images/logos/logo.png"
+              className="h-8 w-auto hover:scale-[1.1] transition-all"
+            />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -167,7 +177,9 @@ export default function Example() {
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
-                        <p className="mt-1 text-neutral-300">{item.description}</p>
+                        <p className="mt-1 text-neutral-300">
+                          {item.description}
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -177,7 +189,10 @@ export default function Example() {
           ))}
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="/parc/community-and-support/membership-directors-and-sponsors.html" className="text-sm font-bold leading-6 text-blue-200">
+          <a
+            href="/parc/community-and-support/membership-directors-and-sponsors.html"
+            className="text-sm font-bold leading-6 text-blue-200"
+          >
             Become A Member! <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -192,7 +207,13 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <a href="/parc">
               <span className="sr-only">Parkland Amateur Radio Club</span>
-              <img alt="" src="/parc/images/logos/logo.png" className="h-8 w-auto" />
+              <Image
+                width={32}
+                height={32}
+                alt="Parkland Amateur Radio Club logo (globe with the province of Saskatchewan outlined, and Parkland Amateur Radio Club text)"
+                src="/parc/images/logos/logo.png"
+                className="h-8 w-auto"
+              />
             </a>
             <button
               type="button"

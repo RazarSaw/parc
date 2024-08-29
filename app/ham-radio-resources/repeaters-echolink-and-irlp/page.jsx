@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Header from "./header";
 
 export default function repeaterEcholinkAndIRLP() {
@@ -21,7 +22,10 @@ export default function repeaterEcholinkAndIRLP() {
                 src="https://www.google.com/maps/d/embed?mid=17ofkEFonsS4s7nLT0yQfRQ33v__5Mo8&ehbc=2E312F"
                 className="w-full aspect-square md:aspect-video"
               ></iframe>
-              <img
+              <Image
+                layout="responsive"
+                width={200}
+                height={200}
                 src="/parc/coverage.png"
                 alt="Parkland Amateur Radio Club repeater coverage"
                 className="h-full w-full object-cover object-left aspect-square md:aspect-video"

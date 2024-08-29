@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const history = [
   {
     time: "1995-1997",
@@ -52,6 +54,14 @@ const history = [
               other ham operators on the Lloydminster Repeater.
             </p>
             <p>
+              <Image
+                src="/parc/micor_radio.jpg"
+                alt="repeater"
+                width="300"
+                height={100}
+                layout="responsive"
+                className="max-w-2xl float-end ml-4 mb-4"
+              />
               My amateur radio contacts I made through talking on the radio and
               also taking part in regular hamfests, both in Saskatchewan and
               Alberta got me interested more in the hobby, and soon I had
@@ -73,7 +83,6 @@ const history = [
               wavelengths apart or 12 feet, with low power output was able to
               have good quality audio.
             </p>
-            <img src="/parc/micor_radio.jpg" className="max-w-lg" />
           </>,
         ],
       },

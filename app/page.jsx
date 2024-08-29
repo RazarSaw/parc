@@ -4,6 +4,7 @@ import Side from "./side";
 import News from "./news";
 import Header from "./components/Header";
 import Repeaters from "./repeaters";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,7 +18,10 @@ export default function Home() {
                 Connecting Communities for Public Service, CANWARN and FUN
               </h2>
               <p>
-                <img
+                <Image 
+                  width={200}
+                  height={200}
+                  alt="Image of a repeater"
                   src="/parc/rptlocation1.jpg"
                   className="float-right ml-8 mb-8 lg:w-1/2 w-full rounded-[8px]"
                 />
@@ -79,6 +83,8 @@ export default function Home() {
                   src="https://www.google.com/maps/d/embed?mid=17ofkEFonsS4s7nLT0yQfRQ33v__5Mo8&ehbc=2E312F"
                   height="400"
                   className="w-full"
+                  loading="lazy"
+                  title="Map of Parkland Amateur Radio Club coverage"
                 ></iframe>
               </div>
 

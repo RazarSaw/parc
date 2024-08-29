@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function silentKeys() {
   const silentKeys = [
     {
@@ -39,8 +41,12 @@ export default function silentKeys() {
           return (
             <a key={member.name} href={member.obituary} className="group">
               <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02]    transition-all text-white">
-                <img
+                <Image
+                  layout="responsive"
+                  width={200}
+                  height={200}
                   src={`/parc/images/silent-keys/${member.callsign.toLowerCase()}.jpg`}
+                  alt={member.name}
                   className="w-full md:h-auto h-full aspect-square object-cover md:object-left object-center transition-all group-hover:object-right md:rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
                 />
                 <div className="flex-grow flex flex-col gap-4 p-4 z-30 bg-neutral-700">

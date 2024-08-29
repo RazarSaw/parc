@@ -2,6 +2,7 @@ import { FiRewind } from "react-icons/fi";
 import Link from "next/link";
 import Community from "./community";
 import Individuals from "./individuals";
+import Image from "next/image";
 
 export default function Sponsors() {
   const links = [
@@ -208,7 +209,9 @@ export default function Sponsors() {
         {links.map((link) => {
           return (
             <a
-              className={`text-center text-neutral-600 bg-white rounded-[8px] grid place-items-center p-8 ${link.href == '#' ? '' : 'hover:scale-[1.03]'} transition-all col-span-${link.colspan}`}
+              className={`text-center text-neutral-600 bg-white rounded-[8px] grid place-items-center p-8 ${
+                link.href == "#" ? "" : "hover:scale-[1.03]"
+              } transition-all col-span-${link.colspan}`}
               href={link.href}
               title={link.title}
               key={link.title}
@@ -216,9 +219,12 @@ export default function Sponsors() {
               {link.imageHref.match("#") ? (
                 link.title
               ) : (
-                <img
+                <Image
                   src={`/parc/images/sponsors/${link.imageHref}`}
                   alt={link.alt}
+                  layout="responsive"
+                  width={200}
+                  height={200}
                   className="rounded-[8px]"
                 />
               )}
@@ -240,6 +246,7 @@ function Friends() {
       desc: "Frank and Angy are very community service minded people. They are impressed with the public service and emergency communications aspects of ham radio and have generously allowed access to the 160 foot tower and radio shack, located at their property east of Yorkton. This has enabled the Parkland Amateur Radio Club to install a permanent commercial grade - long range repeater, that will serve all local hams as well as travelers on the Yellowhead Highway.",
       rowspan: 2,
       colspan: 2,
+      alt: "Frank & Angy Yaholnitsky portrait side by side",
     },
     {
       title: "Nick Toma",
@@ -249,6 +256,7 @@ function Friends() {
       desc: "Nick Toma has been very generous towards the Parkland Amateur Radio Club and members alike. Nick has been one of our main tower climbers and has donated his 150' Tower, which houses the Endeavour Repeater.   He has helped us out when it comes to testing out our radio's for optimum performance.   He has provided the Parkland Amateur Radio Club in providing a public service with emergency communications if the need should arise.  Located North of Preeceville, this repeater provides increase coverage, even where normal modes of communication don't work.",
       rowspan: 2,
       colspan: 3,
+      alt: "Nick Toma climbing antenna tower",
     },
     {
       title: "PCS - Rocanville Division",
@@ -258,6 +266,7 @@ function Friends() {
       desc: "PCS Rocanville has been most generous to our club in providing a new repeater site for 2010-2011.  PCS Rocanville will help the Parkland Amateur Radio Club extend it's coverage area to cover the #1 Trans Canada Hwy",
       rowspan: 1,
       colspan: "3",
+      alt: "Nutrien logo",
     },
   ];
   return friends.map((friend) => {
@@ -266,7 +275,13 @@ function Friends() {
         key={friend.title}
         className={`bg-neutral-700 rounded-[8px] flex flex-col justify-stretch overflow-hidden row-span-${friend.rowspan} col-span-${friend.colspan}`}
       >
-        <img src={`${friend.imageHref}`} />
+        <Image
+          src={`${friend.imageHref}`}
+          alt={friend.alt}
+          layout="responsive"
+          width={200}
+          height={200}
+        />
         <div className="h-full flex flex-col gap-8 justify-center p-8">
           <h4>
             <Link className="text-white" href={friend.href}>

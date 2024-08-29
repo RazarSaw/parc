@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function News() {
   return (
@@ -6,7 +7,11 @@ export default function News() {
       <h2>Bulletins</h2>
       <div id="news" className="grid md:grid-cols-2 grid-cols-1 gap-8">
         <div className="bg-neutral-700 flex flex-col h-full rounded-[8px] p-0">
-          <img
+          <Image
+            layout="responsive"
+            width={200}
+            height={200}
+            alt="Manitoba Hamfest with people inside of a warehouse purchasing items from various vendors"
             src="/parc/Manitoba Hamfest 2024.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
@@ -18,7 +23,10 @@ export default function News() {
                   .split("&bull;")
                   .map((string) => {
                     return (
-                      <span key={string} className="bg-neutral-600/75 flex-grow rounded-[8px] py-2 px-3 text-center">
+                      <span
+                        key={string}
+                        className="bg-neutral-600/75 flex-grow rounded-[8px] py-2 px-3 text-center"
+                      >
                         {string}
                       </span>
                     );
@@ -42,7 +50,11 @@ export default function News() {
           </article>
         </div>
         <div className="bg-neutral-700 rounded-[8px] p-0 flex flex-col h-full">
-          <img
+          <Image
+            layout="responsive"
+            width={200}
+            height={200}
+            alt="Previous Parkland Amateur Radio Club field day with 3 males laughing in the interior of a room"
             src="/parc/1231685-Field-Day-operators-result.jpg"
             className="aspect-[16/3] object-cover rounded-t-[8px]"
           />
@@ -54,7 +66,10 @@ export default function News() {
                   .split("&bull;")
                   .map((string) => {
                     return (
-                      <span key={string} className="bg-neutral-600/75 flex-grow rounded-[8px] py-2 px-3 text-center">
+                      <span
+                        key={string}
+                        className="bg-neutral-600/75 flex-grow rounded-[8px] py-2 px-3 text-center"
+                      >
                         {string}
                       </span>
                     );

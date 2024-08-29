@@ -1,5 +1,6 @@
 import Header from "./header";
 import Links from "./../../components/Links";
+import Image from "next/image";
 
 export default function HamRadioInfo() {
   const links = [
@@ -37,7 +38,11 @@ export default function HamRadioInfo() {
           <section className="flex flex-col gap-8 text-white">
             <h3>What Is Amateur Radio?</h3>
             <p>
-              <img
+              <Image
+                layout="responsive"
+                width={200}
+                height={200}
+                alt="Homemade J-Pole in front of a blue sky"
                 src="/parc/J Pole.jpg"
                 className="float-right lg:w-1/2 w-full rounded-[8px] lg:ml-8 mb-8"
               />
@@ -83,14 +88,18 @@ export default function HamRadioInfo() {
         <div className="container mx-auto py-16 p-8 flex flex-col gap-8">
           <h3>Why Would Anyone Join The Hobby?</h3>
           <p>
-            <img
+            <Image
+              layout="responsive"
+              width={200}
+              height={200}
+              alt="RAC Newspaper with Parkland Amateur Radio Club sponsorship"
               src="/parc/Newspaper.png"
               className="float-left lg:w-1/3 w-full rounded-[8px] mb-4 mr-8"
             />
-            Amateur radio, or &quot;ham radio,&quot; attracts a diverse community of
-            enthusiasts who are drawn by a shared passion for technology,
-            communication, and service. For many, the appeal lies in the
-            hands-on experience of exploring radio frequencies, building
+            Amateur radio, or &quot;ham radio,&quot; attracts a diverse
+            community of enthusiasts who are drawn by a shared passion for
+            technology, communication, and service. For many, the appeal lies in
+            the hands-on experience of exploring radio frequencies, building
             antennas, and experimenting with electronics. It&apos;s a hobby that
             offers endless opportunities for learning and innovation, making it
             a perfect fit for those with a curiosity about how things work.

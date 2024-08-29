@@ -3,6 +3,7 @@
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const d = new Date();
@@ -12,8 +13,11 @@ export default function Footer() {
     <footer className="bg-neutral-900 text-white">
       <div className="container mx-auto flex lg:flex-row flex-col justify-between gap-8 py-4 px-8">
         <div className="flex lg:flex-row flex-col items-center gap-8">
-          <Link href={"/"}>
-            <img
+          <Link href={"/"} aria-label="Parkland Amateur Radio Club logo - go to home page">
+            <Image
+              layout="responsive"
+              width={200}
+              height={200}
               src="/parc/images/logos/logo.png"
               alt=""
               className="max-h-16 hover:scale-[1.05] transition-all aspect-square"
