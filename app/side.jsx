@@ -18,7 +18,7 @@ export default function Side() {
     <aside className="flex flex-col gap-8">
       <article className="flex flex-col gap-8">
         <h2 className="text-white">IRLP Nodes</h2>
-        <ul className="bg-slate-200 rounded-[8px] p-4">
+        <ul className="bg-white rounded-[8px] p-4">
           {irlpNodes.map((node) => (
             <li key={node}>
               <iframe
@@ -37,7 +37,7 @@ export default function Side() {
         </ul>
       </article>
       <h2>Callsign Search</h2>
-      <article className="bg-slate-200 rounded-[8px] flex justify-center p-4 gap-4 flex-wrap">
+      <article className="bg-white rounded-[8px] flex justify-center items-center p-4 gap-4 flex-wrap">
         <a href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup">
           <Image
             layout="responsive"
