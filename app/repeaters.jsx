@@ -79,7 +79,7 @@ export default function Repeaters() {
               <IoMdKeypad />
               <p>{repeater.tone}</p>
             </div>
-            <p className="flex flex-wrap gap-2 md:gap-4 col-span-2 text-[0.6rem]">
+            <p className="flex flex-wrap gap-2 md:gap-4 col-span-2 md:text-sm text-[0.6rem]">
               {repeater.info.split("/").map((string) => {
                 return (
                   <span
