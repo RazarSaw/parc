@@ -49,23 +49,23 @@ export default function VHF() {
               className={`group flex-grow transition-all duration-300 ease-in-out outline hover:scale-[1.02] hover:outline-white outline-black/0 shadow-md rounded-[8px]`}
             >
               <div
-                className={`${net.image} bg-no-repeat bg-cover bg-left-top hover:bg-right-bottom bg-black/90 bg-blend-multiply grid grid-cols-1 grid-rows-[1fr,_repeat(auto-fill,_1fr)] p-8 gap-4 h-full rounded-[8px] duration-700 transition-all text-white`}
+                className={`${net.image} bg-no-repeat bg-cover bg-left-top hover:bg-right-bottom bg-black/90 bg-blend-multiply grid grid-cols-1 grid-rows-[1fr,_repeat(auto-fill,_1fr)] p-8 gap-2 md:gap-4 h-full rounded-[8px] duration-700 transition-all text-white`}
               >
                 <h3 className="pb-4">{net["Name of Net"]}</h3>
-                <p className="uppercase font-semibold text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-1 px-3 grow text-center">
+                <p className="uppercase font-semibold text-[0.6rem] md:text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-2 px-3 md:py-3 md:px-4 grow text-center">
                   {net["Day"]}
                 </p>
-                <div className="flex flex-row flex-wrap gap-4">
-                  <p className="uppercase flex-grow font-semibold text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-1 px-3 text-center">
+                <div className="flex flex-row flex-wrap md:gap-4 gap-2">
+                  <p className="uppercase flex-grow font-semibold text-[0.6rem] md:text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-2 px-3 md:py-3 md:px-4 text-center">
                     {net["UTC Time"]} UTC
                   </p>
-                  <p className="uppercase flex-grow font-semibold text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-1 px-3 text-center">
+                  <p className="uppercase flex-grow font-semibold text-[0.6rem] md:text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-2 px-3 md:py-3 md:px-4 text-center">
                     {net["Local Time"]} CST
                   </p>
                   {net.Mode.split("•").map((string) => {
                     return (
                       <p
-                        className="uppercase flex-grow font-semibold text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-1 px-3 text-center"
+                        className="uppercase flex-grow font-semibold text-[0.6rem] md:text-sm bg-neutral-800/80 backdrop-blur-sm rounded-[8px] py-2 px-3 md:py-3 md:px-4 text-center"
                         key={string}
                       >
                         {string}
