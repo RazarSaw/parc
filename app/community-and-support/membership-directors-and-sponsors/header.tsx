@@ -12,12 +12,6 @@ export default function Header() {
           >
             <p title="Press to access our membership application">Join Here!</p>
           </a>
-          <a
-            href="https://www.rac.ca/carl-everson-memorial-silent-keys-list/"
-            className="text-center w-full md:w-auto hover:bg-red-500 bg-red-400 rounded-[8px] p-4 text-white font-semibold hover:scale-[1.05] transition-all"
-          >
-            <p>Carl Everson Memorial Silent Keys Lists</p>
-          </a>
         </div>
       </div>
     </header>
