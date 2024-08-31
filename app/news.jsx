@@ -4,7 +4,7 @@ import Image from "next/image";
 const news = [
   {
     title: "PARC Field Day",
-    image: "/parc/1231685-Field-Day-operators-result.jpg",
+    // image: "/parc/1231685-Field-Day-operators-result.jpg",
     information: [
       { icon: "📅", details: "Friday June 25th, 2025 (Setup)" },
       { icon: "⌚", details: "Sat 18:00 - Sun 20:59 (UTC)" },
@@ -32,13 +32,13 @@ export default function News() {
               className="bg-neutral-700 rounded-[8px] p-0 flex flex-col h-full"
               key={story.title}
             >
-              <Image
+              {/* <Image
                 width={960}
                 height={640}
                 alt="Previous Parkland Amateur Radio Club field day with 3 males laughing in the interior of a room"
                 src={story.image}
                 className="aspect-[16/3] object-cover rounded-t-[8px] w-full"
-              />
+              /> */}
               <article className="p-8 flex flex-col justify-between h-full gap-8">
                 <div className="flex-grow flex flex-col gap-8">
                   <h3>{story.title}</h3>
