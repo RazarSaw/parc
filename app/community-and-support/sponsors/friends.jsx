@@ -65,7 +65,7 @@ export default function Friends() {
               <p className="flex flex-row flex-wrap md:gap-4 gap-2">
                 {friend.site.split("•").map((tile) => {
                   return (
-                    <span className="md:px-4 px-3 md:py-3 py-2 md:text-sm text-[0.6rem] md:flex-grow-0 flex-grow font-semibold bg-neutral-600/50 backdrop-blur-md rounded-[8px]">
+                    <span key={tile} className="md:px-4 px-3 md:py-3 py-2 md:text-sm text-[0.6rem] md:flex-grow-0 flex-grow font-semibold bg-neutral-600/50 backdrop-blur-md rounded-[8px]">
                       {tile}
                     </span>
                   );
