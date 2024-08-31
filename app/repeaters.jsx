@@ -59,13 +59,13 @@ export default function Repeaters() {
     },
   ];
   return (
-    <section className="grid grid-cols-[repeat(auto-fit,_minmax(250px,1fr))] gap-8">
+    <section className="flex flex-row flex-wrap gap-8">
       {repeaters.map((repeater) => {
         return (
           <a
             key={repeater.location}
             href={repeater.href}
-            className={`${repeater.image} text-white bg-left-top hover:bg-right-bottom bg-no-repeat bg-cover transition-all duration-300 ease-in-out outline hover:scale-105 hover:outline-white outline-black/0 bg-neutral-800/90 bg-blend-multiply rounded-[8px] p-8 flex flex-col gap-8 shadow-md`}
+            className={`${repeater.image} flex-grow text-white bg-left-top hover:bg-right-bottom bg-no-repeat bg-cover transition-all duration-300 ease-in-out outline hover:scale-105 hover:outline-white outline-black/0 bg-neutral-800/90 bg-blend-multiply rounded-[8px] p-8 flex flex-col gap-8 shadow-md`}
           >
             <div className="flex flex-col gap-4">
               <h3>{repeater.location}</h3>
