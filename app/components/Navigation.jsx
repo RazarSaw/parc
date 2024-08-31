@@ -46,6 +46,7 @@ const products = {
         "Interested in getting started, practicing for the exam, or a bit of ham history? ",
       href: "/parc/ham-radio-resources/ham-radio-info.html",
       icon: CiCircleInfo,
+      target: ""
     },
     {
       name: "Repeaters, EchoLink & IRLP",
@@ -53,34 +54,31 @@ const products = {
         "PARC has a vast netwok of EchoLink & IRLP linked repeaters located in the province.",
       href: "/parc/ham-radio-resources/repeaters-echolink-and-irlp.html",
       icon: LuRadioTower,
+      target: ""
     },
     {
       name: "Nets",
       description: "PARC hosts and participates in various nets. Come join us!",
       href: "/parc/ham-radio-resources/nets.html",
       icon: MdOutlineGroups2,
+      target: ""
     },
   ],
   "Community & Support": [
-    // {
-    //   name: "ARES",
-    //   description:
-    //     "Amatuer radio is reknowned not only for communication, but also for communicating in disaster.",
-    //   href: "#",
-    //   icon: MdEmergency,
-    // },
     {
       name: "Local Info",
       description:
         "PARC has a rich history for its grass roots in Saskatchewan.",
       href: "/parc/community-and-support/local-info.html",
       icon: FaHome,
+      target: ""
     },
     {
       name: "Links",
       description: "Find hundreds of links available at your disposile.",
       href: "/parc/community-and-support/links.html",
       icon: FaExternalLinkAlt,
+      target: ""
     },
     {
       name: "Membership, Directors, & Sponsors",
@@ -88,6 +86,7 @@ const products = {
         "Our efforts would not be possible without the people who make it up!",
       href: "/parc/community-and-support/membership-directors-and-sponsors.html",
       icon: MdOutlineCardMembership,
+      target: ""
     },
   ],
   "Swap N' Shop": [
@@ -96,12 +95,14 @@ const products = {
       description: "Scout for items all around with Hamshack!",
       href: "https://hamshack.ca/organization/parkland-amateur-radio-club/",
       icon: FaStore,
+      target: "_blank"
     },
     {
       name: "Saskatchewan Ham Radio Swap and Shop",
       description: "Access local supplies from local hams",
       href: "https://www.va5bug.net/",
       icon: LuWheat,
+      target: "_blank"
     },
   ],
 };
@@ -172,6 +173,7 @@ export default function Example() {
                       <div className="flex-auto">
                         <a
                           href={item.href}
+                          target={item.target}
                           className="block font-semibold text-white"
                         >
                           {item.name}
@@ -242,6 +244,7 @@ export default function Example() {
                           key={item.name}
                           as="a"
                           href={item.href}
+                          target={item.target}
                           className="block rounded-lg py-2 pl-8 pr-3 text-sm font-semibold leading-7 text-neutral-300 hover:bg-neutral-700"
                         >
                           {item.name}
