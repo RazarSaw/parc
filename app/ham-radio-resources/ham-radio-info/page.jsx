@@ -68,59 +68,46 @@ export default function HamRadioInfo() {
               presence of one, you&apos;ll be able to get on the air in no time.
             </p>
           </section>
-        </div>
-      </main>
-
-      <section className="bg-[url('/parc/Yagi%20Uda.jpg')] bg-fixed bg-center bg-cover bg-no-repeat min-h-[40vh] bg-black/80 bg-blend-multiply grid place-items-center">
-        <p className="container mx-auto p-8 text-right text-white text-xl leading-loose">
-          <span>
-            &quot;Amateur radio operators are the guardians of the airwaves,
-            ensuring that the art and science of communication remains vibrant
-            and alive.&quot;
-          </span>
-          <br />
-          <br />
-          <span className="font-bold">– Joe Taylor (K1JT)</span>
-        </p>
-      </section>
-      <main className="bg-neutral-800 text-white">
-        <div className="container mx-auto py-16 p-8 flex flex-col gap-8">
-          <h3>Why Would Anyone Join The Hobby?</h3>
-          <p>
-            <Image
-              width={1051}
-              height={812}
-              alt="RAC Newspaper with Parkland Amateur Radio Club sponsorship"
-              src="/parc/Newspaper.png"
-              className="float-left lg:w-1/3 w-full rounded-[8px] mb-8 mr-8"
-            />
-            Amateur radio, or &quot;ham radio,&quot; attracts a diverse
-            community of enthusiasts who are drawn by a shared passion for
-            technology, communication, and service. For many, the appeal lies in
-            the hands-on experience of exploring radio frequencies, building
-            antennas, and experimenting with electronics. It&apos;s a hobby that
-            offers endless opportunities for learning and innovation, making it
-            a perfect fit for those with a curiosity about how things work.
-            <br />
-            <br />
-            Additionally, amateur radio provides a unique platform for global
-            communication, allowing operators to connect with people across the
-            world, often in remote or underserved areas. This global reach
-            fosters a deep sense of connection and community, as operators share
-            knowledge, participate in international events, and engage in
-            friendly competitions.
-            <br />
-            <br />
-            Beyond the technical and social aspects, amateur radio also serves a
-            critical role in public service. Many operators volunteer their
-            skills to support emergency communications during disasters,
-            ensuring that vital information can still flow when other networks
-            are down. This commitment to community safety and preparedness is a
-            significant draw for those who want to contribute positively to
-            society. Whether driven by a love of technology, a desire for global
-            connection, or a commitment to public service, amateur radio offers
-            something for everyone, making it a rewarding and fulfilling hobby.
-          </p>
+          <section className="flex flex-col gap-8 text-white">
+            <h3>Why Would Anyone Join The Hobby?</h3>
+            <p>
+              <Image
+                width={1051}
+                height={200}
+                alt="RAC Newspaper with Parkland Amateur Radio Club sponsorship"
+                src="/parc/Newspaper.png"
+                className="float-left lg:w-1/3 w-full rounded-[8px] mb-8 mr-8"
+              />
+              Amateur radio, or &quot;ham radio,&quot; attracts a diverse
+              community of enthusiasts who are drawn by a shared passion for
+              technology, communication, and service. For many, the appeal lies
+              in the hands-on experience of exploring radio frequencies,
+              building antennas, and experimenting with electronics. It&apos;s a
+              hobby that offers endless opportunities for learning and
+              innovation, making it a perfect fit for those with a curiosity
+              about how things work.
+              <br />
+              <br />
+              Additionally, amateur radio provides a unique platform for global
+              communication, allowing operators to connect with people across
+              the world, often in remote or underserved areas. This global reach
+              fosters a deep sense of connection and community, as operators
+              share knowledge, participate in international events, and engage
+              in friendly competitions.
+              <br />
+              <br />
+              Beyond the technical and social aspects, amateur radio also serves
+              a critical role in public service. Many operators volunteer their
+              skills to support emergency communications during disasters,
+              ensuring that vital information can still flow when other networks
+              are down. This commitment to community safety and preparedness is
+              a significant draw for those who want to contribute positively to
+              society. Whether driven by a love of technology, a desire for
+              global connection, or a commitment to public service, amateur
+              radio offers something for everyone, making it a rewarding and
+              fulfilling hobby.
+            </p>
+          </section>
         </div>
       </main>
     </>
