@@ -9,6 +9,8 @@ import {
 } from "react-icons/md";
 import { FaHome, FaExternalLinkAlt, FaStore } from "react-icons/fa";
 
+import { GoSponsorTiers } from "react-icons/go";
+
 import { useState } from "react";
 import {
   Dialog,
@@ -81,11 +83,19 @@ const products = {
       target: ""
     },
     {
-      name: "Membership, Directors, & Sponsors",
+      name: "Membership",
       description:
         "Our efforts would not be possible without the people who make it up!",
-      href: "/parc/community-and-support/membership-directors-and-sponsors.html",
+      href: "/parc/community-and-support/membership.html",
       icon: MdOutlineCardMembership,
+      target: ""
+    },
+    {
+      name: "Sponsors",
+      description:
+        "Over the years, we've had exceptional entities sponsor our club.",
+      href: "/parc/community-and-support/sponsors.html",
+      icon: GoSponsorTiers,
       target: ""
     },
   ],
@@ -192,7 +202,7 @@ export default function Example() {
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="/parc/community-and-support/membership-directors-and-sponsors.html"
+            href="/parc/community-and-support/membership.html"
             className="text-sm font-bold leading-6 text-blue-200"
           >
             Become A Member! <span aria-hidden="true">&rarr;</span>

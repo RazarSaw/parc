@@ -5,7 +5,7 @@ export default function Header() {
     >
       <div className="backdrop-blur-sm flex flex-col justify-center">
         <div className="container mx-auto px-8 py-16 flex flex-col items-center gap-8">
-          <h1 className="flex-1 text-center">Membership, Directors, & Sponsors</h1>
+          <h1 className="flex-1 text-center">Membership</h1>
           <a
             href="/parc/Parkland Amateur Radio Club Membership.pdf"
             target="_blank"

@@ -1,6 +1,5 @@
 import Members from "./members";
 import Directors from "./directors";
-import Sponsors from "./sponsors";
 import Header from "./header";
 import Prices from "./prices";
 import SilentKeys from "./silent-keys.jsx";
