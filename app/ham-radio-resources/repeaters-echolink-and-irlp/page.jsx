@@ -17,20 +17,10 @@ export default function repeaterEcholinkAndIRLP() {
               to a expanded coverage area. We are continuously updating our
               equipment and repeater network.
             </p>
-            <div className="grid xl:grid-cols-2 grid-cols-1 gap-8">
-              <iframe
-                src="https://www.google.com/maps/d/embed?mid=17ofkEFonsS4s7nLT0yQfRQ33v__5Mo8&ehbc=2E312F"
-                className="w-full aspect-square md:aspect-video"
-              ></iframe>
-              <Image
-                layout="responsive"
-                width={200}
-                height={200}
-                src="/parc/coverage.png"
-                alt="Parkland Amateur Radio Club repeater coverage"
-                className="h-full w-full object-cover object-left aspect-square md:aspect-video"
-              />
-            </div>
+            <iframe
+              src="https://www.google.com/maps/d/embed?mid=17ofkEFonsS4s7nLT0yQfRQ33v__5Mo8&ehbc=2E312F"
+              className="w-full lg:aspect-[11/3] md:aspect-video aspect-square"
+            ></iframe>
             <p>
               The Parkland amateur Radio Club hosts a great system, integrating
               both VHF / UHF and V.O.I.P. communication systems, that can be
