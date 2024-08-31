@@ -13,52 +13,8 @@ export default function Home() {
       <main className="bg-neutral-800">
         <div className="grid xl:grid-cols-[1fr_auto] grid-cols-1 gap-16 container mx-auto py-16 px-8">
           <div className="text-white flex flex-col gap-16">
-            <section className="flex flex-col gap-8">
-              <h2>
-                Connecting Communities for Public Service, CANWARN and FUN
-              </h2>
-              <p>
-                <Image
-                  width={640}
-                  height={480}
-                  alt="Image of a repeater"
-                  src="/parc/rptlocation1.jpg"
-                  className="float-right ml-8 mb-8 lg:w-1/2 w-full rounded-[8px]"
-                />
-                The Parkland Amateur Radio Club was started in 2002, and has
-                successfully installed a long distance working repeater linked
-                with the existing EchoLink and IRLP systems that allow
-                communication for just basic chit chat or another source of
-                Emergency Communication all over the World. We are able to
-                successfully keep this service alive in East Central
-                Saskatchewan, through its Sponsors and Members, who we
-                appreciate for the service, time and money they have contributed
-                to the club.
-                <br />
-                <br />
-                The Parkland Amateur Radio Club (P.A.R.C.), consists of very
-                active and ambitious amateur radio operators, who commonly share
-                a common interest in many aspects of amateur Radio, located in
-                the Parklands, covering East Central Saskatchewan. Local
-                amateurs in Canora, Saskatchewan in the beginning consisted of
-                only 3, back in 2000, and eventually those same three formed the
-                club, known as the &apos;Canora Amateur Radio Club&apos;, in
-                February 2002. We started with a local repeater, and soon had
-                IRLP or V.O.I.P. Communication installed and linked, which
-                expanded our range of communication to all around the world.
-                Once more operators knew of our local accomplishments they soon
-                joined our club. In January 2004, we started with the addition
-                of EchoLink to our existing IRLP Node, which also improved our
-                coverage to include communication via computer keyboard.
-              </p>
-              <p>
-                Our goals as a club seem to be changing faster than ever and
-                over the next couple of years more amateur&apos;s joined the
-                club, and in April 2006, we changed our club name to: The
-                Parkland Amateur Radio Club Inc., (P.A.R.C.).
-              </p>
-            </section>
             <News />
+            <hr/>
             <section className="flex flex-col gap-8">
               <h2>Our Repeater System</h2>
               <p>
