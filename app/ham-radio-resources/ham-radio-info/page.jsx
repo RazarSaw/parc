@@ -39,9 +39,8 @@ export default function HamRadioInfo() {
             <h3>What Is Amateur Radio?</h3>
             <p>
               <Image
-                layout="responsive"
-                width={200}
-                height={200}
+                width={8160}
+                height={3768}
                 alt="Homemade J-Pole in front of a blue sky"
                 src="/parc/J Pole.jpg"
                 className="float-right lg:w-1/2 w-full rounded-[8px] lg:ml-8 mb-8"
@@ -89,12 +88,11 @@ export default function HamRadioInfo() {
           <h3>Why Would Anyone Join The Hobby?</h3>
           <p>
             <Image
-              layout="responsive"
-              width={200}
-              height={200}
+              width={1051}
+              height={812}
               alt="RAC Newspaper with Parkland Amateur Radio Club sponsorship"
               src="/parc/Newspaper.png"
-              className="float-left lg:w-1/3 w-full rounded-[8px] mb-4 mr-8"
+              className="float-left lg:w-1/3 w-full rounded-[8px] mb-8 mr-8"
             />
             Amateur radio, or &quot;ham radio,&quot; attracts a diverse
             community of enthusiasts who are drawn by a shared passion for

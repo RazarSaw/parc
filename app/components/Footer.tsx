@@ -15,9 +15,8 @@ export default function Footer() {
         <div className="flex lg:flex-row flex-col items-center gap-8">
           <Link href={"/"} aria-label="Parkland Amateur Radio Club logo - go to home page">
             <Image
-              layout="responsive"
-              width={200}
-              height={200}
+              width={64}
+              height={64}
               src="/parc/images/logos/logo.png"
               alt=""
               className="max-h-16 hover:scale-[1.05] transition-all aspect-square"

@@ -18,9 +18,9 @@ export default function Home() {
                 Connecting Communities for Public Service, CANWARN and FUN
               </h2>
               <p>
-                <Image 
-                  width={200}
-                  height={200}
+                <Image
+                  width={640}
+                  height={480}
                   alt="Image of a repeater"
                   src="/parc/rptlocation1.jpg"
                   className="float-right ml-8 mb-8 lg:w-1/2 w-full rounded-[8px]"

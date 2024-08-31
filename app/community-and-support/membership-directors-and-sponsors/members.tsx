@@ -188,12 +188,11 @@ export default function Members() {
               <a key={member.name} href={member.href} className="group">
                 <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02]    transition-all text-white">
                   <Image
-                    layout="responsive"
                     width={200}
                     height={200}
                     src={`/parc/images/profiles/${member.callsign.toLowerCase()}.jpg`}
                     alt={member.name}
-                    className="w-full md:h-auto h-full md:aspect-square object-cover md:object-left object-center transition-all group-hover:object-right md:rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
+                    className="w-full h-full md:h-auto md:aspect-square object-cover md:object-left object-center transition-all group-hover:object-right md:rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
                   />
                   <div className="flex-grow flex flex-col gap-4 p-4 z-30 bg-neutral-700">
                     <h3 className="md:hidden block ">
@@ -225,9 +224,8 @@ export default function Members() {
           <a className="group">
             <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] transition-all text-white">
               <Image
-                layout="responsive"
-                width={200}
-                height={200}
+                width={900}
+                height={952}
                 alt="Junnifer Nielsen"
                 src={`/parc/images/profiles/Jennifer.jpeg`}
                 className="w-full md:h-auto h-full md:aspect-square object-cover md:object-left object-center transition-all group-hover:object-right md:rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"
@@ -245,9 +243,8 @@ export default function Members() {
           <a className="group">
             <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] transition-all text-white">
               <Image
-                layout="responsive"
-                width={200}
-                height={200}
+                width={768}
+                height={1024}
                 alt="Michelle Schneider"
                 src={`/parc/images/profiles/Michelle.jpg`}
                 className="w-full md:h-auto h-full md:aspect-square object-cover md:object-left object-center transition-all group-hover:object-right md:rounded-t-[8px] group-hover:scale-[1.10] ease-in-out duration-700"

@@ -13,8 +13,8 @@ const news = [
     description: (
       <>
         <p>
-          That&apos;s right: Field Day 2025 is happening and it&apos;s happening in
-          Canora, SK! More details to follow when the date is closer.
+          That&apos;s right: Field Day 2025 is happening and it&apos;s happening
+          in Canora, SK! More details to follow when the date is closer.
         </p>
       </>
     ),
@@ -28,14 +28,16 @@ export default function News() {
       <div id="news" className="grid  grid-cols-1 gap-8">
         {news.map((story) => {
           return (
-            <div className="bg-neutral-700 rounded-[8px] p-0 flex flex-col h-full" key={story.title}>
+            <div
+              className="bg-neutral-700 rounded-[8px] p-0 flex flex-col h-full"
+              key={story.title}
+            >
               <Image
-                layout="responsive"
-                width={200}
-                height={200}
+                width={960}
+                height={640}
                 alt="Previous Parkland Amateur Radio Club field day with 3 males laughing in the interior of a room"
                 src={story.image}
-                className="aspect-[16/3] object-cover rounded-t-[8px]"
+                className="aspect-[16/3] object-cover rounded-t-[8px] w-full"
               />
               <article className="p-8 flex flex-col justify-between h-full gap-8">
                 <div className="flex-grow flex flex-col gap-8">

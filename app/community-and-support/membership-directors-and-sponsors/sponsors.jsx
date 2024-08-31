@@ -12,6 +12,8 @@ export default function Sponsors() {
       imageHref: "pioneers.png",
       title: "SaskTel Pioneers",
       colspan: "1",
+      width: 290,
+      height: 178
     },
     {
       alt: "TransGas logo",
@@ -19,6 +21,8 @@ export default function Sponsors() {
       imageHref: "transgas.jpg",
       title: "TransGas",
       colspan: "1",
+      width: 400,
+      height: 100
     },
     {
       alt: "Miccar Aerial logo",
@@ -26,6 +30,8 @@ export default function Sponsors() {
       imageHref: "miccar-aerial.jpg",
       title: "Miccar Aerial",
       colspan: "1",
+      width: 180,
+      height: 108
     },
     {
       alt: "83North logo",
@@ -33,6 +39,8 @@ export default function Sponsors() {
       imageHref: "83north.png",
       title: "83North",
       colspan: "1",
+      width: 1836,
+      height: 287
     },
     {
       alt: "Home Hardware logo",
@@ -41,13 +49,17 @@ export default function Sponsors() {
       title:
         "Home Hardware, P.O. Box 1780 456 3rd Ave. S. Kamsack, SK. S0A 1S0",
       colspan: "1",
+      width: 1600,
+      height: 488
     },
     {
       alt: "SaskTel logo",
       href: "https://www.sasktel.com",
-      imageHref: "sasktel.svg",
+      imageHref: "sasktel.png",
       title: "SaskTel",
       colspan: "1",
+      width: 234,
+      height: 48
     },
     {
       alt: "SaskPower logo",
@@ -55,6 +67,8 @@ export default function Sponsors() {
       imageHref: "saskpower.png",
       title: "SaskPower",
       colspan: "1",
+      width: 344,
+      height: 92
     },
     {
       alt: "Horizon Technical Services logo",
@@ -62,6 +76,8 @@ export default function Sponsors() {
       imageHref: "horizon-technical-services.png",
       title: "Horizon Technical Services",
       colspan: "2",
+      width: 1185,
+      height: 660
     },
     {
       alt: "True Value logo",
@@ -69,6 +85,8 @@ export default function Sponsors() {
       imageHref: "truevalue.webp",
       title: "True Value, 7 Main St. Preeceville, SK. S0A 3B0",
       colspan: "1",
+      width: 1056,
+      height: 422
     },
     {
       alt: "International Lions Club logo",
@@ -76,6 +94,8 @@ export default function Sponsors() {
       imageHref: "Lions_Clubs_International_logo.svg.png",
       title: "Canora Lions Club",
       colspan: "1",
+      width: 1024,
+      height: 956
     },
     {
       alt: "Town of Kamsask logo",
@@ -83,6 +103,8 @@ export default function Sponsors() {
       imageHref: "kamsack.png",
       title: "Town of Kamsask",
       colspan: "3",
+      width: 1424,
+      height: 442
     },
     {
       alt: "Town of Preeceville logo",
@@ -90,6 +112,8 @@ export default function Sponsors() {
       imageHref: "town-of-preeceville.jpg",
       title: "Town of Preeceville",
       colspan: "2",
+      width: 333,
+      height: 115
     },
     {
       alt: "Town of Canora logo",
@@ -97,6 +121,8 @@ export default function Sponsors() {
       imageHref: "town-of-canora.gif",
       title: "Town of Canora",
       colspan: "1",
+      width: 140,
+      height: 140
     },
     {
       alt: "Gateway Co-operative Ltd. logo",
@@ -104,6 +130,8 @@ export default function Sponsors() {
       imageHref: "gateway-coop.png",
       title: "Gateway Co-operative Ltd.",
       colspan: "1",
+      width: 225,
+      height: 225
     },
     {
       alt: "Canora Bargain Store logo",
@@ -111,6 +139,8 @@ export default function Sponsors() {
       imageHref: "bargain_store.gif",
       title: "Canora Bargain Store",
       colspan: "2",
+      width: 266,
+      height: 76
     },
     {
       alt: "",
@@ -118,6 +148,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Logan Stevens Equipment & Rentals, Dallas Harman",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -125,6 +157,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Buchanan Branch, Buchanan, SK S0A 0J0",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -132,6 +166,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Preeceville Branch, Preeceville, SK S0A 3B0",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -139,6 +175,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Sturgis Branch, Sturgis, SK S0A 4A0",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -146,6 +184,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Sky Farms Ltd., Michael Yaholnitsky",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -153,6 +193,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Canora Agencies Ltd., Clarence & Alice Derow",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -160,6 +202,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "CANORA AMBULANCE CARE (1996) LTD.",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -167,6 +211,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "Canora Greenhouse Ltd. Coral Tibbett",
       colspan: "1",
+      width: 200,
+      height: 200
     },
     {
       alt: "",
@@ -174,6 +220,8 @@ export default function Sponsors() {
       imageHref: "#",
       title: "EMW Ltd. Chris Morrison",
       colspan: "1",
+      width: 200,
+      height: 200
     },
   ];
 
@@ -222,9 +270,8 @@ export default function Sponsors() {
                 <Image
                   src={`/parc/images/sponsors/${link.imageHref}`}
                   alt={link.alt}
-                  layout="responsive"
-                  width={200}
-                  height={200}
+                  width={link.width}
+                  height={link.height}
                   className="rounded-[8px]"
                 />
               )}
@@ -278,9 +325,9 @@ function Friends() {
         <Image
           src={`${friend.imageHref}`}
           alt={friend.alt}
-          layout="responsive"
           width={200}
           height={200}
+          className="w-full h-full object-cover object-center"
         />
         <div className="h-full flex flex-col gap-8 justify-center p-8">
           <h4>

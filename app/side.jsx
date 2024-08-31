@@ -37,35 +37,32 @@ export default function Side() {
         </ul>
       </article>
       <h2>Callsign Search</h2>
-      <article className="bg-white rounded-[8px] flex justify-center items-center p-4 gap-4 flex-wrap">
-        <a href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup">
+      <article className="bg-white rounded-[8px] flex flex-row justify-center items-center p-8 gap-4 flex-wrap">
+        <a href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup" className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2">
           <Image
-            layout="responsive"
-            width={200}
-            height={200}
+            width={64/2}
+            height={64}
             alt="Radio Amateurs of Canada logo"
             src="/parc/images/logos/rac-logo-2.svg"
-            className="max-h-32"
+            className="max-h-16"
           />
         </a>
-        <a href="https://www.arrl.org/advanced-call-sign-search">
+        <a href="https://www.arrl.org/advanced-call-sign-search" className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2">
           <Image
-            layout="responsive"
-            width={200}
-            height={200}
+            width={57/2}
+            height={64}
             alt="American Radio Relay League logo"
             src="/parc/images/logos/ARRL_logo.svg.png"
-            className="max-h-32"
+            className="max-h-16"
           />
         </a>
-        <a href="https://www.qrz.com/lookup">
+        <a href="https://www.qrz.com/lookup" className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2">
           <Image
-            layout="responsive"
-            width={200}
-            height={200}
+            width={140/2}
+            height={64}
             alt="QRZ globe logo"
             src="/parc/images/logos/QRZcom Globe Logo_2.png"
-            className="max-h-32"
+            className="max-h-16"
           />
         </a>
       </article>
@@ -76,32 +73,20 @@ export default function Side() {
         className="bg-black p-4 rounded-[8px] grid place-items-center"
       >
         <Image
-          layout="responsive"
-          width={200}
-          height={200}
+          width={155}
+          height={530}
           alt="Details of solar activity"
           src="https://www.hamqsl.com/solarn0nbh.php"
           className="w-full hidden xl:block"
         />
         <Image
-          layout="responsive"
-          width={200}
-          height={200}
+          width={615}
+          height={148}
           alt="Details of solar activity"
           src="https://www.hamqsl.com/solar101vhfpic.php"
-          className="xl:hidden inline "
+          className="xl:hidden inline"
         />
       </a>
-      {/* <div className="bg-slate-200 rounded-[8px]">
-        <iframe
-          src="http://www.g4ilo.com/wwv/webprop.php?format=small"
-          height="268px"
-          frameBorder="0"
-          scrolling="no"
-          allowtransparency="true"
-          className="w-full"
-        ></iframe>
-      </div> */}
     </aside>
   );
 }

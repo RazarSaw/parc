@@ -42,7 +42,6 @@ export default function silentKeys() {
             <a key={member.name} href={member.obituary} className="group">
               <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02]    transition-all text-white">
                 <Image
-                  layout="responsive"
                   width={200}
                   height={200}
                   src={`/parc/images/silent-keys/${member.callsign.toLowerCase()}.jpg`}
