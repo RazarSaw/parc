@@ -38,7 +38,7 @@ const history = [
       {
         title: "Radio Check, Can I Get A Radio Check!",
         subtitle: "The Repeater Rises!",
-        subsections: [
+        subsections: (
           <>
             <p>
               This is when I had become interested in building antennas. One of
@@ -57,10 +57,9 @@ const history = [
               <Image
                 src="/parc/micor_radio.jpg"
                 alt="repeater"
-                width="300"
-                height={100}
-                layout="responsive"
-                className="max-w-2xl float-end ml-4 mb-4"
+                width={365}
+                height={205}
+                className="float-end ml-4 mb-4 max-w-[365]"
               />
               My amateur radio contacts I made through talking on the radio and
               also taking part in regular hamfests, both in Saskatchewan and
@@ -83,8 +82,8 @@ const history = [
               wavelengths apart or 12 feet, with low power output was able to
               have good quality audio.
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
       {
         title: "With A Potential Problem",
@@ -134,7 +133,7 @@ const history = [
       {
         title: "Rises Amateur Radio",
         subtitle: "Up, Up, And Away",
-        subsections: [
+        subsections: (
           <>
             <p>
               I approached Michael Yaholnitsky of Sky Farms Ltd., and Miccar
@@ -187,8 +186,8 @@ const history = [
               you can see 2 homebrew JPoles on the railings.)
             </p>
             <p>Motorola Micor 45 Watt Mobile Motorola Micor 45 Watt Mobile</p>
-          </>,
-        ],
+          </>
+        ),
       },
     ],
   },
@@ -198,7 +197,7 @@ const history = [
       {
         title: "Making Things Official",
         subtitle: "Formation of the Canora Amateur Radio Club",
-        subsections: [
+        subsections: (
           <>
             <p>
               Canora Amateur Radio Club was formed in the fall of 2002, and we
@@ -285,8 +284,8 @@ const history = [
               world, and check in regularly on the Saskatchewan 2 m IRLP Net on
               reflector 9300.
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
     ],
   },
@@ -296,7 +295,7 @@ const history = [
       {
         title: "Making Things Official - Again!",
         subtitle: "Formation of the Parkland Amateur Radio Club",
-        subsections: [
+        subsections: (
           <>
             <p>
               I have stated earlier that Canora Amateur Radio Club was started
@@ -345,13 +344,13 @@ const history = [
               Harvey’s idea and Harvey could also be heard weekdays calling the
               Saskatchewan 2m IRLP net.{" "}
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
       {
         title: "An Unexpected Surprise",
         subtitle: "Preeceville",
-        subsections: [
+        subsections: (
           <>
             <p>
               August of 2006, was no doubt the start of a major project, one in
@@ -440,13 +439,13 @@ const history = [
               a slide show of the antenna installation. Who says Christmas
               doesn’t come early.{" "}
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
       {
         title: "Yorkton Repeater Site",
         subtitle: "Rebuild",
-        subsections: [
+        subsections: (
           <>
             <p>
               By the end of 2006 and beginning of 2007, we had successfully
@@ -477,8 +476,8 @@ const history = [
               communication system which was put into service September 12th,
               2007.
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
     ],
   },
@@ -488,7 +487,7 @@ const history = [
       {
         title: "Losing Hope",
         subtitle: "looking At The Present, Anxious For The Future",
-        subsections: [
+        subsections: (
           <>
             <p>
               Many frustrating and disheartening days followed in 2008 - 2009,
@@ -519,13 +518,13 @@ const history = [
               goals. We all had a common vision to accomplish what we started,
               in the beginning.
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
       {
         title: "That Poor Garage",
         subtitle: "Bad Luck",
-        subsections: [
+        subsections: (
           <>
             <p>
               Parkland Amateur Radio Club (P.A.R.C.) has had some bad luck in
@@ -549,14 +548,14 @@ const history = [
               the replacement of the Invermay repeater on hold. We continued to
               operate with our existing Yorkton Repeater and EchoIRLP Nodes.{" "}
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
       {
         title: "Resilience",
         subtitle:
           "Invermay Repeater Site - Rebuild & Relocation - Hams Never EVER Give Up!",
-        subsections: [
+        subsections: (
           <>
             <p>
               Well, we had some hope after all, in the spring of 2008, our club
@@ -600,13 +599,13 @@ const history = [
               for July 2010. In the mean time we are using Nick&apos;s 4 Bay ½~,
               which has been working flawlessly. - Updates to follow.{" "}
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
       {
         title: "Saskatchewan Reflector 9300",
         subtitle: "Relocation",
-        subsections: [
+        subsections: (
           <>
             <p>
               Parkland Amateur Radio Club (PARC), maybe chewed more than they
@@ -645,8 +644,8 @@ const history = [
               involving the Saskatchewan Reflector, and Randy (VE5RJM), has
               agreed to maintain the system locally.
             </p>
-          </>,
-        ],
+          </>
+        ),
       },
     ],
   },
