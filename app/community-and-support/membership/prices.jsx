@@ -1,6 +1,6 @@
 export default function Prices() {
   return (
-    <section className="bg-gradient-to-r from-violet-500 to-blue-500">
+    <section className="bg-gradient-to-r from-violet-500 to-blue-700">
       <div className="container mx-auto px-8 py-16 gap-8 flex flex-col">
         <h2 className="col-span-3 md:text-center text-left">
           We Want <strong>YOU</strong>
