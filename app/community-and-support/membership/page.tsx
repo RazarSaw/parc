@@ -1,4 +1,5 @@
-import Members from "./members";
+import RegularMembers from "./regular-members";
+import AssociateMembers from "./associate-members"
 import Directors from "./directors";
 import Header from "./header";
 import Prices from "./prices";
@@ -13,7 +14,8 @@ export default function membershipDirectorsAndSponsors() {
       <main className="bg-neutral-800">
         <div className="container mx-auto py-16 px-8 flex flex-col gap-16 ">
           <Directors />
-          <Members />
+          <RegularMembers />
+          <AssociateMembers />
           <HonoraryMembers />
           <SilentKeys />
         </div>
