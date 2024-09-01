@@ -16,7 +16,7 @@ export default function Header() {
         </Link>
         <div className="flex gap-4 flex-wrap justify-center">
           <a
-            href="/parc/community-and-support/membership-directors-and-sponsors.html"
+            href="/parc/community-and-support/membership.html"
             className="bg-blue-400 hover:bg-blue-500 rounded-[8px] p-4 text-white font-semibold hover:scale-[1.05] transition-all"
           >
             <p>Join Us & Become A Member!</p>
