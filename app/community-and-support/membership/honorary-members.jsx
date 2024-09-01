@@ -6,7 +6,7 @@ export default function honoraryMembers() {
     {
       name: "Ray Rosler",
       callsign: "VE5RAE",
-      XYL: "XYL: Misel",
+      XYL: "Misel",
     },
     {
       name: "Arnold Krieger",
