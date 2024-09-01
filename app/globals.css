@@ -49,7 +49,7 @@ body {
     @apply text-blue-300 font-semibold;
   }
   p {
-    @apply text-sm md:text-base;
+    @apply text-[0.7rem] sm:text-sm md:text-base;
   }
   h1,
   h2,
