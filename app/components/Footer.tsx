@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto flex lg:flex-row flex-col justify-between gap-8 py-4 px-8">
         <div className="flex lg:flex-row flex-col items-center gap-8">
           <Link href={"/"} aria-label="Parkland Amateur Radio Club logo - go to home page">
-            <Image
+            <img
               width={64}
               height={64}
               src="/parc/images/logos/logo.png"

@@ -134,7 +134,7 @@ export default function Example() {
         <div className="flex lg:flex-1">
           <a href="/parc" className="-m-1.5 p-1.5">
             <span className="sr-only">Parkland Amateur Radio Club</span>
-            <Image
+            <img
               width={32}
               height={32}
               alt="Parkland Amateur Radio Club logo (globe with the province of Saskatchewan outlined, and Parkland Amateur Radio Club text)"
@@ -219,9 +219,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <a href="/parc">
               <span className="sr-only">Parkland Amateur Radio Club</span>
-              <Image
-                width={32}
-                height={32}
+              <img
                 alt="Parkland Amateur Radio Club logo (globe with the province of Saskatchewan outlined, and Parkland Amateur Radio Club text)"
                 src="/parc/images/logos/logo.png"
                 className="h-8 w-auto"

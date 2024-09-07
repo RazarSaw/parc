@@ -54,7 +54,7 @@ const history = [
               other ham operators on the Lloydminster Repeater.
             </p>
             <p>
-              <Image
+              <img
                 src="/parc/micor_radio.jpg"
                 alt="repeater"
                 width={365}

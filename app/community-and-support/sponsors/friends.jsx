@@ -48,7 +48,7 @@ export default function Friends() {
             <div
               className={`${friend.bg} bg-cover bg-no-repeat bg-left-top group-hover:bg-center duration-700 transition-all ease-in-out`}
             >
-              <Image
+              <img
                 src={`${friend.imageHref}`}
                 alt={friend.alt}
                 width={friend.width}

@@ -38,7 +38,7 @@ export default function HamRadioInfo() {
           <section className="flex flex-col gap-8 text-white">
             <h3>What Is Amateur Radio?</h3>
             <p>
-              <Image
+              <img
                 width={8160}
                 height={3768}
                 alt="Homemade J-Pole in front of a blue sky"
@@ -71,7 +71,7 @@ export default function HamRadioInfo() {
           <section className="flex flex-col gap-8 text-white">
             <h3>Why Would Anyone Join The Hobby?</h3>
             <p>
-              <Image
+              <img
                 width={1051}
                 height={200}
                 alt="RAC Newspaper with Parkland Amateur Radio Club sponsorship"

@@ -14,7 +14,7 @@ export default function localInfo() {
           <section className="flex flex-col gap-8">
             <h2>Our Local History</h2>
             <p>
-              <Image
+              <img
                 width={640}
                 height={480}
                 alt="Image of a repeater"
