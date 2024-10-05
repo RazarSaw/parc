@@ -5,7 +5,7 @@ export default function Repeaters() {
   const repeaters = [
     {
       location: "Canora",
-      href: "https://repeater.world/repeaters/va5emo-2m-canora-saskatchewan-canada",
+      href: "https://www.repeaterbook.com/repeaters/details.php?state_id=CA11&ID=9778",
       image: "bg-[url('/parc/images/locations/Canora.webp')]",
       callsign: "VA5EMO",
       frequency: "147.300 + MHz",
@@ -14,7 +14,7 @@ export default function Repeaters() {
     },
     {
       location: "Hendon",
-      href: "https://repeater.world/repeaters/ve5eml-2m-hendon-saskatchewan-canada",
+      href: "https://www.repeaterbook.com/repeaters/details.php?state_id=CA11&ID=21437",
       image: "bg-[url('/parc/images/locations/Hendon.webp')]",
       callsign: "VE5EML",
       frequency: "146.610 - MHz",
@@ -23,7 +23,7 @@ export default function Repeaters() {
     },
     {
       location: "Norquay",
-      href: "https://repeater.world/repeaters/va5inv-2m-fm-norquay-saskatchewan-canada",
+      href: "https://www.repeaterbook.com/repeaters/details.php?state_id=CA11&ID=3145",
       image: "bg-[url('/parc/images/locations/Norquay.webp')]",
       callsign: "VA5INV",
       frequency: "147.080 + MHz",
@@ -32,7 +32,7 @@ export default function Repeaters() {
     },
     {
       location: "Rocanville",
-      href: "https://repeater.world/repeaters/va5rsr-2m-fm-rocanville-saskatchewan-canada",
+      href: "https://www.repeaterbook.com/repeaters/details.php?state_id=CA11&ID=10993",
       image: "bg-[url('/parc/images/locations/Rocanville.webp')]",
       callsign: "VA5RSR",
       frequency: "145.310 - MHz",
@@ -41,7 +41,7 @@ export default function Repeaters() {
     },
     {
       location: "Yorkton",
-      href: "https://repeater.world/repeaters/va5par-2m-yorkton-saskatchewan-canada",
+      href: "https://www.repeaterbook.com/repeaters/details.php?state_id=CA11&ID=66",
       image: "bg-[url('/parc/images/locations/Yorkton.webp')]",
       callsign: "VA5PAR",
       frequency: "145.490 - MHz",
@@ -65,6 +65,7 @@ export default function Repeaters() {
           <a
             key={repeater.location}
             href={repeater.href}
+            target="_blank"
             className={`${repeater.image} flex-grow text-white bg-left-top hover:bg-right-bottom bg-no-repeat bg-cover transition-all duration-300 ease-in-out outline hover:scale-105 hover:outline-white outline-black/0 bg-neutral-800/90 bg-blend-multiply rounded-[8px] p-8 flex flex-col gap-8 shadow-md`}
           >
             <div className="flex flex-col gap-4">
