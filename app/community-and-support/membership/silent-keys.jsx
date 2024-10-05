@@ -48,6 +48,7 @@ export default function silentKeys() {
             <a
               key={member.name}
               href={member.obituary}
+              target="_blank"
               className="group flex-grow bg-neutral-700 grid grid-cols-[auto,1fr]  rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] duration-500 ease-in-out outline outline-black/0 hover:outline-white hover:scale-[1.05] transition-all text-white"
             >
               <div
@@ -71,6 +72,7 @@ export default function silentKeys() {
       </div>
       <a
         href="https://www.rac.ca/carl-everson-memorial-silent-keys-list/"
+        target="_blank"
         className="text-center w-full md:w-auto hover:bg-red-500 bg-red-400 rounded-[8px] p-4 text-white font-semibold hover:scale-[1.02] transition-all"
       >
         <p>Carl Everson Memorial Silent Keys Lists</p>

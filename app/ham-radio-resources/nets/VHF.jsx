@@ -46,6 +46,7 @@ export default function VHF() {
             <a
               key={net["Name of Net"]}
               href={net.href}
+              target="_blank"
               className={`group flex-grow transition-all duration-300 ease-in-out outline hover:scale-[1.02] hover:outline-white outline-black/0 shadow-md rounded-[8px]`}
             >
               <div

@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 
 export default function Side() {
   const irlpNodes = [
@@ -38,27 +37,39 @@ export default function Side() {
       </article>
       <h2>Callsign Search</h2>
       <article className="bg-white rounded-[8px] flex flex-row justify-center items-center p-8 gap-4 flex-wrap">
-        <a href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup" className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2">
+        <a
+          href="https://apc-cap.ic.gc.ca/pls/apc_anon/query_amat_cs$.startup"
+          target="_blank"
+          className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2"
+        >
           <img
-            width={64/2}
+            width={64 / 2}
             height={64}
             alt="Radio Amateurs of Canada logo"
             src="/parc/images/logos/rac-logo-2.svg"
             className="max-h-16"
           />
         </a>
-        <a href="https://www.arrl.org/advanced-call-sign-search" className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2">
+        <a
+          href="https://www.arrl.org/advanced-call-sign-search"
+          target="_blank"
+          className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2"
+        >
           <img
-            width={57/2}
+            width={57 / 2}
             height={64}
             alt="American Radio Relay League logo"
             src="/parc/images/logos/ARRL_logo.svg.png"
             className="max-h-16"
           />
         </a>
-        <a href="https://www.qrz.com/lookup" className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2">
+        <a
+          href="https://www.qrz.com/lookup"
+          target="_blank"
+          className="bg-slate-100 hover:bg-slate-200 hover:scale-[1.05] transition-all duration-500 aspect-square rounded-[8px] grid place-items-center p-2"
+        >
           <img
-            width={140/2}
+            width={140 / 2}
             height={64}
             alt="QRZ globe logo"
             src="/parc/images/logos/QRZcom Globe Logo_2.png"
@@ -69,6 +80,7 @@ export default function Side() {
       <h2>Solar Weather</h2>
       <a
         href="https://www.hamqsl.com/solar.html"
+        target="_blank"
         title="Click to add Solar-Terrestrial Data to your website!"
         className="bg-black p-4 rounded-[8px] grid place-items-center"
       >

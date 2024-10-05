@@ -63,6 +63,7 @@ export default function Directors() {
               <a
                 key={member.name}
                 href={member.href}
+                target="_blank"
                 className="group flex-grow bg-neutral-700 grid grid-cols-[auto,1fr] rounded-[8px] p-0 overflow-hidden duration-500 ease-in-out outline outline-black/0 hover:outline-white hover:scale-[1.05] transition-all text-white"
               >
                 <div

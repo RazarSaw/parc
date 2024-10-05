@@ -30,6 +30,7 @@ export default function honoraryMembers() {
             <a
               key={member.name}
               href={member.href}
+              target="_blank"
               className="group flex-grow bg-neutral-700  rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02]    transition-all text-white"
             >
               <div className="flex-grow flex flex-col md:gap-8 gap-4 p-4 md:p-8 z-30">

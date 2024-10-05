@@ -71,6 +71,7 @@ export default function Home() {
               </p>
               <a
                 href="https://ve5ufo-radiospace.godaddysites.com/"
+                target="_blank"
                 className="bg-blue-400 hover:bg-blue-500 rounded-[8px] p-4 text-white font-semibold hover:scale-[1.01] transition-all"
               >
                 <p>Visit SASKWARN (Wireless Amateur Radio Network)</p>

@@ -212,6 +212,7 @@ export default function RegularMembers() {
             return (
               <a
                 key={member.name}
+                target="_blank"
                 href={member.href}
                 className="group flex-grow bg-neutral-700 grid grid-cols-[auto,1fr] rounded-[8px] overflow-hidden group-hover:scale-[1.02] duration-500 ease-in-out outline outline-black/0 hover:outline-white hover:scale-[1.05] transition-all text-white"
               >
