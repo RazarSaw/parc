@@ -213,36 +213,36 @@ export default function RegularMembers() {
               <a
                 key={member.name}
                 href={member.href}
-                className="group flex-grow bg-neutral-700 grid grid-cols-[auto,1fr]  rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] duration-500 ease-in-out outline outline-black/0 hover:outline-white hover:scale-[1.05] transition-all text-white"
+                className="group flex-grow bg-neutral-700 grid grid-cols-[auto,1fr] rounded-[8px] overflow-hidden group-hover:scale-[1.02] duration-500 ease-in-out outline outline-black/0 hover:outline-white hover:scale-[1.05] transition-all text-white"
               >
                 <div
                   className={`p-8 bg-center bg-cover bg-no-repeat ${member.imageHref} min-w-32 md:min-w-48 `}
                 ></div>
-                <div className="flex-grow flex flex-col md:gap-8 gap-4 p-8 z-30">
+                <div className="flex-grow flex flex-col md:gap-8 gap-4 md:p-8 p-4 z-30">
                   <p className="md:hidden block ">
                     {member.name.split(" ")[0]}
                   </p>
                   <p className="md:block hidden">{member.name}</p>
-                  <div className="flex flex-col md:gap-4 gap-2">
-                    <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                  <div className="flex md:flex-col flex-row flex-wrap md:gap-4 gap-2">
+                    <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                       {member.callsign}
                     </p>
                     {member.hasOwnProperty("XYL") ? (
-                      <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                      <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                         XYL {member.XYL}
                       </p>
                     ) : (
                       ""
                     )}
                     {member.hasOwnProperty("OM") ? (
-                      <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                      <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                         OM {member.OM}
                       </p>
                     ) : (
                       ""
                     )}
 
-                    <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                    <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                       Member Since {member["member-since"]}
                     </p>
                   </div>

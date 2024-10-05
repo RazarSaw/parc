@@ -34,7 +34,7 @@ export default function AssociateMembers() {
               <div
                 className={`p-8 bg-center bg-cover bg-no-repeat ${member.imageHref} min-w-32 md:min-w-48 `}
               ></div>
-              <div className="flex-grow flex flex-col md:gap-8 gap-4 p-8 z-30">
+              <div className="flex-grow flex flex-col md:gap-8 gap-4 md:p-8 p-4 z-30">
                 <p className="md:hidden block ">{member.name.split(" ")[0]}</p>
                 <p className="md:block hidden">{member.name}</p>
                 <div className="flex flex-col md:gap-4 gap-2">

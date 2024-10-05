@@ -32,10 +32,10 @@ export default function honoraryMembers() {
               href={member.href}
               className="group flex-grow bg-neutral-700  rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02]    transition-all text-white"
             >
-              <div className="flex-grow flex flex-col md:gap-8 gap-4 p-8 z-30">
+              <div className="flex-grow flex flex-col md:gap-8 gap-4 p-4 md:p-8 z-30">
                 <p className="md:hidden block ">{member.name.split(" ")[0]}</p>
                 <p className="md:block hidden">{member.name}</p>
-                <div className="flex flex-col md:gap-4 gap-2">
+                <div className="flex flex-row flex-wrap md:flex-col md:gap-4 gap-2">
                   {member.hasOwnProperty("XYL") ? (
                     <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                       XYL {member.XYL}

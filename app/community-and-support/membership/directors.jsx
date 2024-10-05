@@ -68,31 +68,31 @@ export default function Directors() {
                 <div
                   className={`p-8 bg-center bg-cover bg-no-repeat ${member.imageHref} min-w-32 md:min-w-48 `}
                 ></div>
-                <div className="flex-grow flex flex-col md:gap-8 gap-4 p-8 z-30">
+                <div className="flex-grow flex flex-col md:gap-8 gap-4 md:p-8 p-4 z-30">
                   <p className="md:hidden block ">
                     {member.name.split(" ")[0]}
                   </p>
                   <p className="md:block hidden">{member.name}</p>
-                  <div className="flex flex-col md:gap-4 gap-2">
-                    <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                  <div className="flex flex-row flex-wrap md:flex-col md:gap-4 gap-2">
+                    <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                       {member["position"]}
                     </p>
                     {member.hasOwnProperty("XYL") ? (
-                      <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                      <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                         XYL {member.XYL}
                       </p>
                     ) : (
                       ""
                     )}
                     {member.hasOwnProperty("OM") ? (
-                      <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                      <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                         OM {member.OM}
                       </p>
                     ) : (
                       ""
                     )}
 
-                    <p className="md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
+                    <p className="flex-grow md:text-sm text-[0.6rem] md:py-3 py-2 md:px-4 px-3 bg-neutral-600 rounded-[8px] ">
                       Member Since {member["member-since"]}
                     </p>
                   </div>
@@ -106,7 +106,7 @@ export default function Directors() {
             return (
               <a key={member.name} href={member.href} className="group">
                 <div className="bg-neutral-700 grid grid-cols-[100px,_1fr] md:flex flex-col h-full rounded-[8px] p-0 overflow-hidden group-hover:scale-[1.02] transition-all text-white">
-                  <Image
+                  <img
                     width={200}
                     height={200}
                     src={`/parc/images/profiles/${member.callsign.toLowerCase()}.jpg`}
