@@ -937,6 +937,7 @@ export default function Links() {
                     {section.links.map((link) => (
                       <a
                         href={link.href}
+                        target="_blank"
                         key={link.title}
                         className="flex-grow bg-neutral-700 hover:bg-neutral-700/90 rounded-[8px] transition-all duration-500 outline outline-black/0 hover:outline-white ease-in-out hover:scale-[1.02] p-4 lg:px-4 lg:py-3 md:px-3 md:py-2 flex items-center md:justify-center min-w-[250px] text-white  md:text-center text-left text-[0.6rem] md:text-sm"
                       >
